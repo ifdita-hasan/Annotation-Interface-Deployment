@@ -9,7 +9,7 @@ BUCKET_NAME = st.secrets.filenames["bucket_name"]
 st.set_page_config(layout="wide")
 
 # Change it to True when you want to store on Google Cloud
-save_on_cloud = False
+save_on_cloud = True
 
 # st.markdown(
 #     """
