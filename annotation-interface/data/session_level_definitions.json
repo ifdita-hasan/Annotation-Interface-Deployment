@@ -1,0 +1,200 @@
+{
+    "general_instructions": "Global scores are intended to capture the rater's overall impression of how well or poorly the clinician meets the description of the dimension being measured. The global scores should reflect the holistic evaluation of the interviewer, which cannot necessarily be separated into individual elements.",
+    "scoring_instructions": "Assume a default score of 3 and move up or down as required. 3 reflects mixed practice. 5 is not given when there are prominent examples of poor practice in the segment.",
+    "dimensions": [
+        {
+            "dimension": "Cultivating Change Talk",
+            "rubric": [
+                {
+                    "score": 1,
+                    "definition": "Clinician shows no explicit attention to, or preference for, the client’s language in favor of changing.",
+                    "examples": [
+                        "Asks only for a history of the problem.",
+                        "Structures the conversation to focus only on the problems the client is experiencing.",
+                        "Supplies reasons for change rather than encouraging them from the client."
+                    ]
+                },
+                {
+                    "score": 2,
+                    "definition": "Clinician sporadically attends to client language in favor of change-frequently misses opportunities to encourage change talk.",
+                    "examples": [
+                        "Superficial attention to client language about the change goal.",
+                        "Fails to ask about potential benefits of change.",
+                        "Lack of curiosity or minimal interest in client's values, strengths and past successes."
+                    ]
+                },
+                {
+                    "score": 3,
+                    "definition": "Clinician often attends to the client's language in favor of change, but misses some opportunities to encourage change talk.",
+                    "examples": [
+                        "Misses opportunities to encourage client language in favor of change.",
+                        "May give equal time and attention to sustain talk and change talk, for example using decisional balance after momentum for change is emerging."
+                    ]
+                },
+                {
+                    "score": 4,
+                    "definition": "Clinician consistently attends to the client's language about change and makes efforts to encourage it.",
+                    "examples": [
+                        "Expresses curiosity when clients offer change talk.",
+                        "May explore client's values, strengths, hopes and past successes related to target goal.",
+                        "More often than not, acknowledges client reasons for change and explores when they are offered."
+                    ]
+                },
+                {
+                    "score": 5,
+                    "definition": "Clinician shows a marked and consistent effort to increase the depth, strength or momentum of the client's language in favor of change.",
+                    "examples": [
+                        "Rarely misses opportunities to build momentum of change talk.",
+                        "Strategically elicits change talk and consistently responds to it when offered.",
+                        "Uses structured therapeutic tasks as a way of eliciting and reinforcing change talk."
+                    ]
+                }
+            ]
+        },
+        {
+            "dimension": "Softening Sustain Talk",
+            "rubric": [
+                {
+                    "score": 1,
+                    "definition": "Clinician consistently responds to the client’s language in a manner that facilitates the frequency or depth of arguments in favor of the status quo.",
+                    "examples": [
+                        "Explicitly asks for arguments against change, queries difficulties.",
+                        "Sustained curiosity and focus about reasons not change.",
+                        "Preferential attention and reinforcement of sustain talk when it occurs alongside change talk."
+                    ]
+                },
+                {
+                    "score": 2,
+                    "definition": "Usually chooses to explore, focus on, or respond to client’s reasons to maintain the status quo.",
+                    "examples": [
+                        "Often reflects benefits of the status quo.",
+                        "Asks about barriers to change on more than one occasion during the interview, even if the client does not bring up.",
+                        "Often deepens discussion of barriers or difficulties of change when client mentions them."
+                    ]
+                },
+                {
+                    "score": 3,
+                    "definition": "Clinician gives preference to the client’s language in favor of the status quo, but may show some instances of shifting the focus away from sustain talk.",
+                    "examples": [
+                        "Some missed opportunities to shift focus away from sustain talk.",
+                        "Attends to benefits of status quo even when client offers change talk"
+                    ]
+                },
+                {
+                    "score": 4,
+                    "definition": "Clinician typically avoids an emphasis on client language favoring the status quo.",
+                    "examples": [
+                        "Does not explicitly ask for reasons not to change.",
+                        "Minimal attention to sustain talk when it occurs.",
+                        "Does not seek elaboration of sustain talk."
+                    ]
+                },
+                {
+                    "score": 5,
+                    "definition": "Clinician shows a marked and consistent effort to decrease the depth, strength, or momentum of the client’s language in favor of the status quo.",
+                    "examples": [
+                        "Uses structured therapeutic task(s) to shift the focus of sustain talk toward the target change goal.",
+                        "May use double-sided reflections (ending with a reflection of change talk) to move the conversation away from sustain talk."
+                    ]
+                }
+            ]
+        },
+        {
+            "dimension": "Partnership",
+            "rubric": [
+                {
+                    "score": 1,
+                    "definition": "Clinician actively assumes the expert role for the majority of the interaction with the client. Collaboration or partnership is absent.",
+                    "examples": [
+                        "Denies or minimizes client ideas.",
+                        "Dominates conversation.",
+                        "Argues when client offers alternative approach."
+                    ]
+                },
+                {
+                    "score": 2,
+                    "definition": "Clinician superficially responds to opportunities to collaborate.",
+                    "examples": [
+                        "Clinician rarely surrenders the expert role.",
+                        "Minimal or superficial querying of client input.",
+                        "Often sacrifices opportunities for mutual problem solving in favor of supplying knowledge or expertise."
+                    ]
+                },
+                {
+                    "score": 3,
+                    "definition": "Clinician incorporates client’s contributions but does so in a lukewarm or erratic fashion.",
+                    "examples": [
+                        "The righting reflex is largely absent.",
+                        "Sacrifices some opportunities for mutual problem solving in favor of supplying knowledge or advice.",
+                        "Seems to be in a stand-off with the client; not wrestling and not dancing."
+                    ]
+                },
+                {
+                    "score": 4,
+                    "definition": "Clinician fosters collaboration and power sharing so that client’s contributions impact the session in ways that they otherwise would not.",
+                    "examples": [
+                        "Some structuring of session to ensure client input.",
+                        "Searches for agreement on problem definition, agenda setting, and goal setting.",
+                        "Solicits client views in more than a perfunctory fashion."
+                    ]
+                },
+                {
+                    "score": 5,
+                    "definition": "Clinician actively fosters and encourages power sharing in the interaction in such a way that client’s contributions substantially influence the nature of the session.",
+                    "examples": [
+                        "Genuinely negotiates the agenda and goals for the session.",
+                        "Indicates curiosity about client ideas through querying and listening.",
+                        "Facilitates client evaluation of options and planning."
+                    ]
+                }
+            ]
+        },
+        {
+            "dimension": "Empathy",
+            "rubric": [
+                {
+                    "score": 1,
+                    "definition": "Clinician gives little or no attention to the client’s perspective.",
+                    "examples": [
+                        "Asking only information-seeking questions.",
+                        "Probing for factual information with no attempt to understand the client’s perspective."
+                    ]
+                },
+                {
+                    "score": 2,
+                    "definition": "Clinician makes sporadic efforts to explore the client’s perspective. Clinician’s understanding may be inaccurate or may detract from the client’s true meaning.",
+                    "examples": [
+                        "Offers reflections but they often misinterpret what the client had said.",
+                        "Displays shallow attempts to understand the client."
+                    ]
+                },
+                {
+                    "score": 3,
+                    "definition": "Clinician is actively trying to understand the client’s perspective, with modest success.",
+                    "examples": [
+                        "May offer a few accurate reflections, but may miss the client’s point.",
+                        "Makes an attempt to grasp the client’s meaning throughout the session."
+                    ]
+                },
+                {
+                    "score": 4,
+                    "definition": "Clinician makes active and repeated efforts to understand the client’s point of view. Shows evidence of accurate understanding of the client’s worldview, although mostly limited to explicit content.",
+                    "examples": [
+                        "Conveys interest in the client’s perspective or situation.",
+                        "Offers accurate reflections of what the client has said already.",
+                        "Effectively communicates understanding of the client’s viewpoint."
+                    ]
+                },
+                {
+                    "score": 5,
+                    "definition": "Clinician shows evidence of deep understanding of client’s point of view, not just for what has been explicitly stated but what the client means and has not said.",
+                    "examples": [
+                        "Shows great interest in client’s perspective or situation.",
+                        "Attempts to 'put self in client’s shoes'.", 
+                        "Often encourages client to elaborate, beyond what is necessary to merely follow the story."
+                    ]
+                }
+            ]
+        }
+    ]
+}

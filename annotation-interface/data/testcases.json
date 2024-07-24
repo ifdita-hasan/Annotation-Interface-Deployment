@@ -1,0 +1,2116 @@
+{
+    "tests": [
+        {
+            "client goals": "smoking cessation ",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "Can I help you?"
+                },
+                {
+                    "role": "client",
+                    "content": "Uh, yeah. I just got off work, and apparently, they're going smoke-free, so I'm-- I-I thought I'd stop by the pharmacy here and see what my options are. Some of my friends have tried nicotine patches and the-- they say they don't work really well. I don't really wanna quit smoking, I just need something to get me through the day."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So you want nicotine replacement, but you don't wanna quit smoking?"
+                },
+                {
+                    "role": "client",
+                    "content": "Maybe like da-- during the day nicotine replacement. Is that-- I mean, do you have anything like that?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "We don't really recommend that. The idea is you would use the nicotine replacement to actually quit, so then you wouldn't be smoking at work, but you also wouldn't be smoking the rest of the time either."
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I don't really wanna quit. I mean, I like smoking. I like go-- after work, I have a beer with my friends, and I'll smoke cigarettes. I mean, it's not really a big deal. Cigarettes aren't that bad. I mean, I know that the-- it's popular to say that smoking is bad for you but, you know, I like it, so I'm gonna be doing it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Well, smoking really is really bad for you, you know. It causes things like lung cancer, emphysema, heart disease-"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, yeah. Okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "-oral diseases."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay. Well, what are my options? You know, assuming that I'm right, what are my options?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, to be honest with you, you mentioned the patch. I can't recommend a patch to you if you're gonna continue smoking. That can actually be pretty dangerous for you. In order to advise you about this at all, I need you to tell me a little bit more about your smoking history and how much you're smoking now."
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I mean, I s-- I-I-I smoke barely a pack a day. I mean, I've probably smoked for about five or six years now. It's not really a lot of cigarettes, but it's sort of hard to get through the day at work."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Well, we actually consider 20 cigarettes a day to be a significant amount, and in fact, I would then recommend to you that you would start on the highest dose of nicotine replacement."
+                },
+                {
+                    "role": "client",
+                    "content": "Sounds good to me. The more nicotine, the better. Is it like gum or something? Could I chew it like while I'm in the office? That sounds pretty great. I mean, do you have\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, there are some products that you could use to take away some of your cravings, and probably the gum would be the best option for you. It's not something you would continue to use continuously throughout the day, however, but gum is something you use just when you have a craving."
+                },
+                {
+                    "role": "client",
+                    "content": "Oh. Okay. Well, where is that?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, we have that here, but again, the-the idea would be for you to actually quit smoking."
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I-- [sighs] I'm probably not gonna buy anything today. I mean, I just came by to see what my options are. I-- if-- thanks for the input. I mean, do you have anything else, do you have any other advice for me?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, aside from the gum, you could try the nicotine lozenge, that would be another option for you. Again, that's not something you'd wanna use continuously throughout the day. The nicotine patch is the best for continuous nicotine replacement, but again, that's not something you can use while you're continuing to smoke."
+                },
+                {
+                    "role": "client",
+                    "content": "Oh, well. Okay. Well, thanks. I mean, I guess that helps a little bit. I'll-- maybe I'll be back later. Thanks."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay."
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "reducing alcohol consumption",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "And before you leave, uh, is it okay if we go over this screening form that you filled out today on your alcohol use?"
+                },
+                {
+                    "role": "client",
+                    "content": "Sure."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Uh, thanks for filling this out. Uh, looks like you use alcohol two to three days a week?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, but only on the weekend."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. And then when you do drink alcohol, you typically have five or six drinks."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah. Uh, maybe a couple more."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Well, the reason why I like to talk to patients when they fill out this form is because sometimes, uh, alcohol use can impact our health. Um, and my role is to be helpful. I can share some information with you about alcohol use, um, but I don't tell anyone what to do. It's always up to the patient to decide what they wanna do about their drinking. Um, so is it okay if we talk a little bit more about your alcohol use?"
+                },
+                {
+                    "role": "client",
+                    "content": "So, uh, are you saying I drink too much?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "How would you define drinking too much?"
+                },
+                {
+                    "role": "client",
+                    "content": "I guess when it starts affecting your health or your life, right? I've never really thought about it like that. I don't know, maybe I do need to think more about my drinking."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I appreciate you being open to this conversation, and I want to provide you with some information that could be useful. With your permission, may we explore how your current alcohol use might be affecting different aspects of your health and life?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, I think that could be important. I've got this follow-up appointment for my ADHD, and I'm not sure if the drinking is messing with that too. But it's hard to imagine cutting back, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's really insightful of you to consider how alcohol might interact with your ADHD. Let's work together to understand the situation better, so you can make informed decisions about your health."
+                },
+                {
+                    "role": "client",
+                    "content": "So, what kind of information do you have? I guess I'm kind of curious about how alcohol really affects things with ADHD and, uh, my health overall."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, I can provide some insights. For instance, alcohol can sometimes affect concentration and sleep, which are areas often already challenged by ADHD. Would you be interested in discussing how these might apply to you and maybe finding strategies that could improve your overall well-being?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, that makes sense. I mean, sleep and concentration are already a bit of a struggle for me, so I don't want to make it worse. Do you think there are ways to still enjoy a drink without it interfering so much?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like you're recognizing the delicate balance between enjoying a drink and ensuring it doesn't exacerbate your sleep and concentration issues. It's a positive step that you're considering how to maintain that enjoyment without letting it affect your daily life. How about we look at some moderation techniques that might help you keep that balance?"
+                },
+                {
+                    "role": "client",
+                    "content": "Moderation techniques sound helpful. It's just, I feel torn about giving up those weekend drinks with friends. It's tough to think about changing that routine."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's understandable to feel that way; social gatherings are an important part of life. Perhaps we can explore ways to enjoy those times with your friends while also taking care of your health and well-being. Would that be something you'd be interested in discussing further?"
+                },
+                {
+                    "role": "client",
+                    "content": "I'm sort of interested, yeah. It's just... I don't know if I can find a good balance. Do these techniques actually work for people like me?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's really common to question whether a new approach will be effective, especially when it involves changing a familiar routine. Many have found success with moderation techniques, and they may work for you as well. How would you feel about exploring what has worked for others to see if it might resonate with your situation?"
+                },
+                {
+                    "role": "client",
+                    "content": "I guess I'm willing to hear about what's worked for others. It's all a bit overwhelming, though, trying to picture myself in that kind of change."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I appreciate your openness to learning about what has helped others, and I assure you, we'll navigate this together at your own pace. Would it be alright if we discuss some examples and see how you might apply them in a way that feels comfortable for you?"
+                },
+                {
+                    "role": "client",
+                    "content": "Sure, we can go over some examples. But I'm not making any promises, you know. Just taking it one step at a time."
+                },
+                {
+                    "role": "therapist",
+                    "content": "That's absolutely fair, and I respect that you're not committing to anything before you're ready. It's important to acknowledge that considering change is a significant step in itself. Let's start by discussing some examples and remember, we're focusing on what feels feasible for you, step by step."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, let's talk about these examples then. I want to understand how they might fit into my life without making me feel like I'm losing a part of my social self."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I hear your concern about maintaining your social identity, and it's great that you're looking to understand how change can fit into your life authentically. We'll take a close look at how others have integrated these changes seamlessly into their social routines without feeling a sense of loss."
+                },
+                {
+                    "role": "client",
+                    "content": "That sounds promising. I guess I'm curious but anxious about how exactly that'll work for me. I hope I can figure something out that doesn't take the fun out of the weekends."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely natural to feel both curious and anxious about this process. Many find that once they've found a strategy that works for them, it enhances their enjoyment rather than detracting from it. We'll explore options with the aim of keeping your weekends enjoyable and in line with your well-being."
+                },
+                {
+                    "role": "client",
+                    "content": "Exploring options sounds good, but I worry I might just end up back where I started. It's hard to imagine not going overboard, even with a plan."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's okay to have those concerns; change can indeed be daunting and it's not uncommon to have setbacks. We'll work on developing a flexible plan that you can adapt as needed, which could give you a greater sense of control and help prevent feeling overwhelmed."
+                },
+                {
+                    "role": "client",
+                    "content": "Developing a flexible plan... that might be helpful. I'm just not sure how to stick to it when the time comes. I guess it's something we could try to work through?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, the idea is to create something that feels manageable and realistic for you. Together, we can consider different scenarios and I\u2019ll be here to support you in finding ways to stick to the plan that resonate with you."
+                },
+                {
+                    "role": "client",
+                    "content": "I appreciate the support. It's just... even thinking about scenarios makes me feel unsure. But I'm willing to try and see what could work."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Your willingness to try is a significant strength, and it's completely understandable to feel unsure when envisioning these changes. We'll move at a pace that feels comfortable for you, ensuring that the strategies we explore are tailored to your unique situation."
+                },
+                {
+                    "role": "client",
+                    "content": "Thanks for understanding. I'm still grappling with how to face this and honestly, it's a bit scary. But I guess taking it step by step is the best way forward?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Taking it step by step is indeed a good approach. What are some initial steps you might feel comfortable beginning with, even if they seem small?"
+                },
+                {
+                    "role": "client",
+                    "content": "Maybe starting with cutting back just a little at a time could be less intimidating. Like, perhaps just one less drink to begin with?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "That sounds like a sensible and achievable starting point. It allows you to build confidence in your ability to make changes at your own pace, which can be very empowering."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, one less drink could be a start. It's just, you know, I wonder if that's going to make any real difference."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's natural to question the impact of small steps, but even incremental progress is progress. These initial adjustments can set the foundation for more significant changes over time."
+                }
+            ],
+            "case": "simulated"
+        },
+        {
+            "client goals": "reducing alcohol consumption",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "Okay, so I'm just gonna ask you a couple of more background questions."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Do you use any tobacco products, or smoke cigarettes?"
+                },
+                {
+                    "role": "client",
+                    "content": "No, I would bum cigarettes in college, but I was never a smoker."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. How about in the last year?"
+                },
+                {
+                    "role": "client",
+                    "content": "No, not really anything."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. And how often do you have a drink containing alcohol?"
+                },
+                {
+                    "role": "client",
+                    "content": "Um, a few times a week. Uh, Wednesdays, I'll go to happy hour and have about two or three. And then, um, Thursdays, seven, um, seven or eight. Fridays, probably just a couple of glasses of wine with dinner. Um, but Saturdays are bigger night. And I would probably have a few drinks before I went to the bar. And then have four or five at when-when I was out. So\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. So it sounds like you're drinking about four times a week, anywhere between three and eight drinks on a given day. So, maybe around 20 drinks a week?"
+                },
+                {
+                    "role": "client",
+                    "content": "I guess, it sounds like a lot when you say [chuckles] like that. But yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Do you use any street drugs like any marijuana, cocaine, heroin?"
+                },
+                {
+                    "role": "client",
+                    "content": "No. I-I smoked weed in college, but just a little bit. I wasn't a regular smoker."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Do you, um, do you ever use any prescription medicines that were not prescribed for you, or ever use your own prescriptions in a way on which they were not prescribed?"
+                },
+                {
+                    "role": "client",
+                    "content": "No."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. So, you know, as we said before, you're drinking-- it sounds like you're drinking about 20 drinks a week, over the course of a few days. And I did want to point out to you that the recommended limit for women is actually no more than seven drinks a week, and no more than three on a given day."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So you're doing more than that right now. And when you drink more than this amount, it puts you at risk for a number of things, okay? Things like greater risk of injury, damage to different parts of your body, um, just a bunch of different problems. And, uh-- so I'm going to recommend that you cut down- cut down that amount to the recommended limit. Again, that's no more than seven drinks a week and no more than three on a given day. Do you think you could do that? Would that be a good goal for you?"
+                },
+                {
+                    "role": "client",
+                    "content": "That's a lot to change. I don't know."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah, I know that making changes isn't always easy. But when you drink more than what's recommended, it creates problems. You know, you said you hurt your ankle when you came out of the bar this time."
+                },
+                {
+                    "role": "client",
+                    "content": "I mean, the stairs were really steep. So\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah. Well, it's possible you strained your ankle as a result of the alcohol. You know, it can actually affect your balance and stability. So, really, you know, for where you are right now, you're drinking a good amount more than what's recommended. And, you know, I want you to be healthy. And I don't want to see you coming back in here for something else. So I'm really gonna recommend that you try to cut down to that amount. So, do you think you could do that, cut down to no more than three drinks on a given day?"
+                },
+                {
+                    "role": "client",
+                    "content": "Where are these limits from? Um, old- an older population? Because, uh, I drink just as much as my friends do. I mean, everybody drinks like I drink. I'm not even the biggest drinker in my group. So I'm pretty middle of the road."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, it sounds like, you know, the amount you drink is pretty normal-"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "-amongst the people you typically drink with. But these limits are-- they're actually recommended for all adults. And studies have shown that when you drink more than this, it creates a bunch of problems like we talked about. So, you know, why do you think you drink the amount you drink?"
+                },
+                {
+                    "role": "client",
+                    "content": "I don't know. It's what we do. It's-- this is how we have fun, I guess. It is fun."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, I think you can still have fun within these amounts. So that's what I'm gonna recommend. Um, I think this is a really good goal, and hopefully, we won't see any more injuries. Okay? So why don't you try that?"
+                },
+                {
+                    "role": "client",
+                    "content": "Okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "All right. Thank you so much."
+                },
+                {
+                    "role": "client",
+                    "content": "Thanks."
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "smoking cessation ",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "So, what brings you here, Bob? What's, what can I do to help?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah. Yeah, well, the only reason I'm here is 'cause my wife thinks I've got a problem with smoking. I've been smoking all my life and, uh, six months ago, uh, she thought, she got into this health kick, right? And now everyone who smokes is evil. And, uh, so that's why I'm here just to please her, get her off my back and\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, you're not too happy to be here. This is the last thing that you want to be doing this afternoon."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah. That's an understatement. I mean, I'm supposed to be at work right now, too, right? So-"
+                },
+                {
+                    "role": "therapist",
+                    "content": "You've taken time off you, it's costing you time and money being here."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, yeah. I'm only here because my wife forced me to come, you know. Like this has come to a head six months of just nagging me, relentless every day, because she was able to quit smoking and now I have to quit."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, let me ask you this, Bob, what are some of your wife's concerns about your smoking?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, she's concerned about my health and she cuts out all these articles from the paper about second-hand smoke and\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Wow, that she's been showing you and making you read."
+                },
+                {
+                    "role": "client",
+                    "content": "I guess, man. She lays 'em out on the table and expects me to read every single one. Like, I get it, smoking's bad, but it's not like I'm doin' it inside the house or something."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like your wife really cares about your health and the wellbeing of those around you. It must be tough feeling pressured, but it's clear you understand where her concern is coming from. How do you feel about all this attention on your smoking habits?"
+                },
+                {
+                    "role": "client",
+                    "content": "Look, I know she cares and all, but it's like, you know, it's my life too, right? It's just hard, feeling like you're constantly under a microscope, and I don't know, it's just all so overwhelming sometimes."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It certainly sounds like a lot to handle, being under such close scrutiny can be incredibly stressful. It's important that you feel heard in this situation too. How might we approach this so that your perspective is considered alongside your wife's concerns?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, that's the million-dollar question, ain't it? I mean, I don't even know where to start. You say my perspective, but honestly, it feels like what I want doesn't really matter anymore, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's really important that your voice is part of this conversation, and what you want does matter. It can be quite challenging to feel like your choices are being overshadowed. Let's explore what you feel is important in this situation, and how we might find a balance that respects both you and your wife's feelings."
+                },
+                {
+                    "role": "client",
+                    "content": "It's just... sometimes I think she's got a point, but other times I feel like climbing the walls, you know? It's like I want to quit for her and for the kids, but on my own terms, not 'cause I'm being cornered into it. How do I even start finding that balance without just caving in?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It seems like you're caught between wanting to make this change for your loved ones and needing to do it in a way that feels true to yourself. You're looking for a sense of autonomy in your decision, so it doesn't feel forced upon you. Shall we discuss some steps that might help you feel more in control of this process?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, that'd be good, I guess. I just don't want to commit to something then let everyone down, you know? What kind of steps we talking about here?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Would it be alright with you if we considered some small, manageable changes that could start you on a path towards your goal, while ensuring you're comfortable with each step?"
+                },
+                {
+                    "role": "client",
+                    "content": "Maybe small steps are the way to go... I mean, I can't promise I'll be all in from the get-go, but, uh, what kinda small changes are we talking about? It's gotta be something I can stick with, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, we want to make sure that the changes feel manageable for you. How about we start by identifying times when you feel most tempted to smoke, and then we look for alternative activities you could engage in during those moments? Would that be a step you'd feel comfortable exploring together?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, we could try that. I guess pinpointing when I'm most likely to light up might help, like after meals or with my morning coffee. Got any ideas for what I could do instead during those times?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's insightful of you to recognize those specific times when the urge to smoke is strongest. Finding something that can replace that habit in your routine, like a short walk or a different kind of ritual with your coffee, could be a worthwhile experiment. How do you feel about trying out some of these alternatives to see what works for you?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, maybe mixing it up could work, swapping a cig for a walk or something. I dunno, though, you think that's gonna be enough to stop the cravings? Feels a bit like putting a band-aid on a bullet hole, if you ask me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I understand your concerns, and it's wise to question the effectiveness of these steps. Would you be open to discussing how habits are formed and changed, and how these small swaps could contribute to a larger change over time? It's a collaborative effort, and I'm here to support you through this."
+                },
+                {
+                    "role": "client",
+                    "content": "I'm willing to give it a shot, talking about those habit things. Just not sure how much faith I got in this... feels like I've tried changing things before and nothing sticks, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It can be disheartening to feel like past efforts haven't led to lasting change. It's important to acknowledge that frustration and the doubt it can bring up. Let's explore together how this time could be different, focusing on understanding and reshaping those habits."
+                },
+                {
+                    "role": "client",
+                    "content": "Alright, exploring's fine, but I'm not getting my hopes up too high, you get me? Been down this road and it's like, sometimes you think you're heading somewhere then\u2014bam\u2014you're back where you started. So, how's this habit reshaping thing gonna work exactly?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "I appreciate your honesty, and I respect your right to be cautious about the process. With your permission, we can delve into the concept of 'habit loops,' which might offer new insights into how small changes can lead to big results. Would you be comfortable with taking it step by step, seeing how the theory applies to your experiences?"
+                },
+                {
+                    "role": "client",
+                    "content": "Step by step? Yeah, I guess that's the only way I haven't tried yet. I mean, go ahead with the habit loop talk, but no promises, alright? Just kinda tired of spinning my wheels."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, it's all about finding what works best for you, and there's no pressure to commit to anything upfront. When we talk about 'habit loops,' we're referring to the cycle of cue, routine, and reward that reinforces our behaviors. Would it be alright if we start by examining these elements in your routine to better understand your smoking habits and identify where we can introduce changes?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, looking at the whole cue and reward thing might help, or whatever. But what if it don't change anything? I mean, after all this time, what's different now?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely natural to have doubts, especially when you've faced setbacks before. The difference this time can be our approach to understanding the underlying patterns and really personalizing the strategies that we'll try together. Remember, each attempt is a learning experience that brings us closer to finding a solution that fits you."
+                },
+                {
+                    "role": "client",
+                    "content": "So we're basically detectives now, huh? Digging into my smoking like it's some kind of mystery... I guess I can play along. Just don't expect me to turn into Sherlock overnight, okay?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "I hear you\u2014that it can feel a bit like a mystery, and there's no expectation for instant breakthroughs. Think of it more as a joint effort in understanding, rather than solving a case overnight. We'll take it at a pace that feels right for you."
+                },
+                {
+                    "role": "client",
+                    "content": "Joint effort, yeah, I can get behind that. Just gotta say though, this whole pace thing... What if I'm just not getting it? Like, the pace is fine, but what if I'm the problem?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like you're concerned about the possibility of not making progress, even with a supportive pace. It's important to recognize that everyone's journey is different, and sometimes it's not about speed, but about finding clarity and the strategies that resonate with you."
+                },
+                {
+                    "role": "client",
+                    "content": "Finding clarity, huh? I dunno, feels like I've been trying to get clear for years. But maybe you're right... maybe there's some strategy out there that'll click for me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's great to hear you're open to discovering a strategy that might click for you. Can you share more about what you've tried in the past, and what you feel might have been missing in those approaches?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I've tried patches and gum, even hypnosis once, you know? None of it really stuck. It's like there's something else I need, but I can't put my finger on it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Exploring different methods, like patches and gum, shows your commitment to finding what works for you, even though it's been challenging. It's okay that those didn't stick\u2014sometimes it takes uncovering deeper needs or motivations. Together, we'll keep looking for that missing piece in a supportive way."
+                }
+            ],
+            "case": "simulated"
+        },
+        {
+            "client goals": "reducing alcohol consumption",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "So, Rick, just in regards to your flatmate situation at the moment with Tristan. Uh, you know, we talked about how walking through this program and with the support of your parents and having some positive influence to help you through this. I just want to rethink a bit if you stay living with Tristan. What are the sort of pros and cons of that? What are the good things about living there, what are the not-so-good things about living there?"
+                },
+                {
+                    "role": "client",
+                    "content": "Oh, it's a nice place. It's close to work. It's good living with a mate."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah. So, in terms of being supportive and a sort of support you're gonna need to make these changes."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "What's your thinking around that?"
+                },
+                {
+                    "role": "client",
+                    "content": "That's the thing, isn't it? I am-- I don't know if it's the best place for me to be if I'm gonna make those changes."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "And Tristan is a good flatmate."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "client",
+                    "content": "I have no-- We're going in different-different directions now. He doesn't have the same kind of responsibilities I have and stuff, and so-- And I can't expect him to change his whole life around, just because I wanna change mine."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Right."
+                },
+                {
+                    "role": "client",
+                    "content": "I just-- I don't know how keen I am to move in with my- with my aunty and uncle, though."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. You're good to explore, but I just want to ask you about, how much does Chris-Christian-Christian know-- Tristan know about you changing your life? What does he really know about the changes you wanna make?"
+                },
+                {
+                    "role": "client",
+                    "content": "I sit down and talk with him, asked him for, um, for support and stuff and he's fully, he says fully he'll be there for me. But, like I said, he's, um, he's in a different place in his life than I am in mine."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "He doesn't have kids."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Right."
+                },
+                {
+                    "role": "client",
+                    "content": "He doesn't-- I don't know if he can really understand what it means to me. Um, he's a good mate."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. What are some of the pros and cons about moving in with wh\u0101na, moving in with your auntie and uncle?"
+                },
+                {
+                    "role": "client",
+                    "content": "The food would be good. Um, I get- I get support with-- my wh\u0101nau is really supportive, but I'm- I'm worried about losing- I'm worried about losing my freedom. I'm worried about, um, about them taking over, or, you know what I mean? I have a freedom where I am now, I'm in charge of myself. That would probably be really good."
+                },
+                {
+                    "role": "therapist",
+                    "content": "In terms of that freedom and in charge of yourself, and the changes that we're talking about, and building your own family, and to enable you to do that, where do some of that freedom stuff sit with re-engaging back with your wh\u0101nau and your children, your partner? Is it something you're gonna wanna hang on to, or how you're going to manage that?"
+                },
+                {
+                    "role": "client",
+                    "content": "I don't wanna hang on to freedom if it this- if it means that I lose my kids. Um, I'm just, uh, I'm just worried about-- I'm worried about if I move in with family, that they, even if their intentions are good-"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "I don't know. I'll do anything to get my kids back."
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "diabetes management",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "Hi. You are [unintelligible 00:00:02]?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Um, what brings you in?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I'm supposed to come to learn about my-- how to manage my diabetes. Just got diagnosed."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm. I see- I see that your A1C or your blood glucose is very high."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, that's what doctor said. She-she really laid into me about that. Said it was-- I guess, this is really serious stuff. She was talking about losing eyesight, mm, my feet, mm, problems with a lot of other stuff, and it really scared me. Uh, so, [sighs] you know, how-how-how to manage all this, I guess, is what I gotta learn, but it just sounds massive."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm. Well, you do need to take your medicine. We, uh, will need to start dieting, uh, you know, lose some weight, change-change your eating habits, exercise, uh, to get your diabetes under control, because your doctor is right, it is very serious."
+                },
+                {
+                    "role": "client",
+                    "content": "That's, uh, that's a huge amount of stuff to do and, I'm not- I'm not certain I can do all that, and on top of it, it's-it's-- if I don't get it all done, all this stuff happens to me?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, it sure can."
+                },
+                {
+                    "role": "client",
+                    "content": "It's like, where do I even start, you know? All this diet and exercise, it's overwhelming, and what if I just can't stick to it? It's a lot to take in all at once."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I understand how daunting this can seem. Would it be okay if we explore some manageable steps together to start addressing your concerns? We can work collaboratively to find a plan that fits your lifestyle."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, I think that sounds good, but, ya know, I'm kinda worried... What if I mess up, ya know? What's gonna happen then?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely natural to worry about making mistakes; you're going through a big adjustment. How about we look at this as a learning process where it's okay to have ups and downs? If you're open to it, we can discuss some strategies to help you cope with setbacks and stay on track."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, I guess that makes sense, learning as I go... Still, it's a little scary to think about messing up when there's so much at stake, you know? How do we make sure I don't just fall off the wagon completely?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's understandable to feel that pressure, but remember that this is about progress, not perfection. Can you tell me more about what support you feel would help prevent you from 'falling off the wagon'?"
+                },
+                {
+                    "role": "client",
+                    "content": "I dunno, it\u2019s like, I need someone to check in on me, make sure I'm doin' the right things. And maybe like, some way to deal with it when I start to freak out? 'Cause I know that's gonna happen."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Would it be alright if we set up a routine check-in to monitor your progress and discuss any challenges you're facing? Together, we can also explore some techniques for managing stress and anxiety that might arise, to ensure you have the tools you need."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, routine check-ins sound cool, I guess. It'd be helpful, just, what if I get too nervous to even talk about it when I'm freaking out, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Would you be open to the idea of creating a 'safety plan' that you can turn to when you're feeling too anxious to talk? It could include steps to manage your anxiety and decide when it might be a good time to reach out for support."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, a 'safety plan' sounds like a thing I should have, just in case, y'know? But, uh, it's kinda hard to imagine what to do when I'm all wound up like that. How do we even start with something like that?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "How about we begin by identifying some calming techniques that work for you, and then we can build upon those to create your safety plan? We're in this together, and your insights are invaluable in shaping this plan to make it truly effective for you."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, so, we could maybe try some stuff like deep breathin' or, I dunno, listening to some chill music when I'm stressed? It's just... starting is the hard part, and sticking to it, that's what gets me anxious."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Those are great starting points, and it's perfectly okay to feel anxious about beginning and maintaining a new practice. We'll take it step by step, and I'll be here to support you through each stage, ensuring that the approach we take feels manageable and reassuring for you."
+                },
+                {
+                    "role": "client",
+                    "content": "That's cool, I appreciate it. Just, sometimes I think what if the music and breathin' don't cut it? What then?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It\u2019s great that you're thinking ahead, and it\u2019s completely normal to have concerns about finding what works for you. We'll explore a variety of strategies together, so if one approach isn't enough, we have others to try. Remember, you\u2019re not alone in this."
+                },
+                {
+                    "role": "client",
+                    "content": "I get that, we got backup plans and stuff. But, uh, what if none of those work either? Feels like I'm just waiting for things to go wrong, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "May we look at it this way? It's natural to worry about the unknown, but together, we can treat each strategy as a learning experience, gathering information on what suits you best. Would it be okay if we approach this with the mindset that there's something to be gained from each attempt, even if adjustments are needed?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, I get what you're saying, trying things out to see what sticks. Just, it's all kinda overwhelming to think about, like what if I try and nothing feels right? It's a lot, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like you're carrying a weight of uncertainty about finding the right methods to cope, and that's completely understandable. Feeling overwhelmed is a part of facing new challenges. Would you find it helpful if we took this one small step at a time, focusing on the immediate options without the pressure to get everything right at once?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, one step at a time sounds good, I guess. Just feels like there's this big clock ticking over me, and I'm racing against time with this whole diabetes thing. It's just... what if I mess up or something?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "I hear you, the pressure of time can feel daunting, especially with something as important as managing your health. Remember that every step you take is progress, and it's okay to learn as you go. There's no expectation of perfection here, just your willingness to try."
+                },
+                {
+                    "role": "client",
+                    "content": "Heh, tryin' and learnin' as you go... that's a bit of a relief, I suppose. It's just that I'm scared of the consequences, you know? I don't wanna end up hurting myself by accident or something."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's totally understandable to feel scared about potential consequences, and it's important to acknowledge these fears. Together, we'll make sure you have the knowledge and support you need to minimize risks and make informed choices for your well-being."
+                },
+                {
+                    "role": "client",
+                    "content": "Thanks for getting it, like, really. It's just hard to shake the fear, and I'm tryin' to believe that I won't mess things up too bad. But, uh, how do we start with... you know, the basics?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "You're already taking a positive step by being here and willing to address the basics. Let's begin with some foundational knowledge and build up from there, ensuring you feel comfortable and confident with each step. How does starting with some basic information about diabetes management sound to you?"
+                },
+                {
+                    "role": "client",
+                    "content": "Starting with the basics, yeah, that sounds doable. I mean, gotta start somewhere, right? Just hoping I can keep up with it all."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, starting somewhere is exactly how progress is made. We'll go at a pace that feels right for you, and I'll be here to support you every step of the way. Keeping up will be about teamwork and persistence, not a race."
+                },
+                {
+                    "role": "client",
+                    "content": "Teamwork, huh? I guess that makes sense, it's just a lot to take in. Can we, uh, maybe start with what I should be eating or, I dunno, how to check my blood sugar?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Certainly, starting with nutrition and understanding how to monitor your blood sugar are great first steps. I can provide you with clear guidelines on healthy eating habits and demonstrate how to check your blood sugar properly. Would that help ease your concerns?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, guidelines and learning how to check my sugar, that'd be good. Still feels like there's loads to figure out, but I guess it's a start, right? Just hoping I can remember all this stuff when it counts."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, it's a start, and you're not alone in this. Remember, it's normal to be concerned about remembering everything, and we'll go over these practices as often as needed for you to feel confident. Taking notes or setting up reminders can be a good strategy, and we can explore what works best for you."
+                }
+            ],
+            "case": "simulated"
+        },
+        {
+            "client goals": "taking medicine / following medical procedure",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "Hi, Mrs. Smith. I wanted to let you know that at this appointment, we're gonna be giving Lilly some vaccines."
+                },
+                {
+                    "role": "client",
+                    "content": "Oh, I-I don't know if I'm comfortable with that. I've been reading a bunch of stuff lately about them."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Hmm. Can you tell me more about your concerns about vaccines?"
+                },
+                {
+                    "role": "client",
+                    "content": "Uh, yeah, well, I was just- I was reading that it's better to let them build up their immunity, like, naturally and stuff in their immune systems."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay, so you were thinking that maybe exposing Lily naturally to these diseases would be a better choice than using vaccines to help her get stronger?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, yeah. I mean, I had chickenpox as a kid, and now I'm immune. Right? So."
+                },
+                {
+                    "role": "therapist",
+                    "content": "That's right. Having chickenpox as a child means that you are less likely to have chickenpox as an adult because you've developed a-a natural immunity. Uh, but is it okay if I offer you a little bit more information about the other vaccines that we're- we were going to give her Lily today?"
+                },
+                {
+                    "role": "client",
+                    "content": "Uh, okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. So, uh, before vaccines were developed, often when children had a natural exposure to some of these diseases, they ended up with, uh, sometimes death, disability, measles caused brain damage and, uh, deafness and blindness. Polio caused, uh, paralysis in children. And so, allowing children to have natural exposure to these diseases, sometimes was a little bit of a gamble, it could be dangerous."
+                },
+                {
+                    "role": "client",
+                    "content": "I get what you're saying, but it's a lot to take in, you know? It's just that, um, I don't want Lilly to suffer or nothin', but I'm scared of her having a bad reaction to the shots."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I understand your concerns, and it's important to have all the information. Would it be alright if we discuss the likelihood of reactions to vaccines compared to the risks of these diseases? This way, you can make an informed decision for Lilly's health."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, I guess that makes sense. It's just... it's hard to know what's best, y'know? I'm just really worried about making the wrong choice for her."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely natural to feel worried when making decisions about your child's health. Every parent wants to do what's best for their child. Let's look at the information together and go through any questions you might have."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, yeah, let's do that. I just wanna make sure I'm not, like, missing something important or, I dunno, messing up with her health or anything."
+                },
+                {
+                    "role": "therapist",
+                    "content": "That's a good approach, wanting to be thorough. With your permission, can we review how vaccines work to protect Lilly, and examine the balance between the risks and benefits? This could help address any potential gaps in information and ensure that you feel confident in your decision."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, sure, I guess we can go over it. I just... it's all just so much, y'know? I want to do the right thing but what if I don't get it, and something goes wrong?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's understandable to feel overwhelmed by this information and to worry about Lilly's wellbeing. Knowing you want to do the right thing shows your dedication as a parent. Let's take it one step at a time, and I'll be here to help you understand each part."
+                },
+                {
+                    "role": "client",
+                    "content": "Alright, one step at a time sounds good. I just... It's like, what if I think I understand but I don't really, and later on, Lilly gets hurt 'cause of a choice I made, y'know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's clear that you deeply care about Lilly's safety and are concerned about the responsibility that comes with these choices. It's okay to question your understanding; it shows that you're taking this very seriously. We'll clarify things together, ensuring you feel secure in your decisions for her health."
+                },
+                {
+                    "role": "client",
+                    "content": "I appreciate that, really. It's just kinda tough, feeling like I'm supposed to just know all this stuff. I guess I'm just afraid of letting Lilly down, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "You're doing your best, and it's okay not to know everything from the start. Would it be okay if we explore the resources and information together, so you feel more equipped and less worried about letting Lilly down?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, that would be really great. I'm just... I've got so many things swirling in my head, and I'm not even sure what to ask first. I just want to feel like I'm not in this alone, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "You're definitely not in this alone, and it's normal to have a lot of questions when it comes to such important decisions. I'm here to help you sort through those swirling thoughts and find the answers you need. Together, we\u2019ll make sure you have all the support and information to make the best decisions for Lilly."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, so where do we start? Like, what's the most important thing I should know first? I just hope I can keep up with all this info, ya know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Let's begin with the basics of how vaccines contribute to health and why they're recommended for children like Lilly. This foundation will help you prioritize your concerns and questions. And remember, there's no rush\u2014we'll go at a pace that you're comfortable with."
+                },
+                {
+                    "role": "client",
+                    "content": "Alright, basics sound good. But, uh, can we talk about like, the side effects and stuff too? I heard things and I don't wanna miss anything important, y'know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Of course, discussing potential side effects is an important part of understanding vaccines fully. Would it be alright if we go over the common side effects and then address any specific concerns you've heard about, to ensure you have a comprehensive view?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, yeah, I'd like that. And, um, maybe you can help me figure out what's like, real info and what's just... I don't know, scary stories? It's a lot to take in."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, it's important to differentiate between reliable information and myths that can cause unnecessary worry. We'll tackle these concerns together, focusing on credible sources to help you understand what truly matters for Lilly's health."
+                },
+                {
+                    "role": "client",
+                    "content": "Thanks, that's a relief. Sorting the real from the nonsense feels like a huge thing, y'know? Just wanna do right by Lilly, without freaking out over every little thing I read."
+                },
+                {
+                    "role": "therapist",
+                    "content": "You're showing great care for Lilly by wanting to discern accurate information. We'll take this step by step, addressing each piece of information as it comes, to help you feel confident in your decisions."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, that sounds like a plan, I guess. It\u2019s just...sometimes I think, am I just overthinking it all? What if I mess up, you know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely natural to worry about making the right choices, especially when it comes to Lilly's well-being. Reflecting on these concerns shows that you're taking this responsibility seriously, and together, we'll work through them to ensure you feel secure in your decisions."
+                },
+                {
+                    "role": "client",
+                    "content": "I hope so... I don't wanna let Lilly down or nothing. It's just when I think I got it, something else pops up and makes me second guess. So, how do we start sorting through all this?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "I understand how new information can be daunting. Would it be okay if we began by creating a list of your main concerns and then methodically work through each one, using evidence-based information to clear any doubts you may have?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, okay, let's do that. I'm not even sure what I'm most worried about, it's all just kinda swimming in my head. Maybe you can tell me what you think are the big things to worry about?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Certainly, we can start unpacking the most common concerns that parents have and then see which ones resonate with you. This way, you don't have to feel alone in trying to determine what's crucial for Lilly's health."
+                },
+                {
+                    "role": "client",
+                    "content": "That sounds good. Yeah, starting with what other parents worry about could help, I think. It\u2019s just a bit overwhelming, trying to figure out what I should even be asking."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Would you be comfortable if we looked at a guideline of topics most parents find important to ask about, and then you can tell me how you feel about each? It's a collaborative approach that can help prioritize your concerns without the overwhelm."
+                },
+                {
+                    "role": "client",
+                    "content": "Sure, I think that\u2019d help. Like, it\u2019s hard to even know where to start on my own... What\u2019s usually the first thing other moms ask about?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Many parents begin by asking about the safety and side effects of treatments, to ensure they fully understand the implications for their child's health. It's a way to gather foundational knowledge to build upon."
+                }
+            ],
+            "case": "simulated"
+        },
+        {
+            "client goals": "problem recognition",
+            "messages": [
+                {
+                    "role": "client",
+                    "content": "Well see, my-my wife's been getting on me a lot lately about trying to improve my health habits, and I really don't see what the big problem is. I mean, I've been working real hard. Sometimes I can't come home for dinner, so I'm having to go out to eat at Applebee's or something like that, so-- but she seems to have a bigger problem, I really don't see what the big deal is."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay, and so what I'm hearing is that you don't feel like your health is concerning you right now, or anything like that?"
+                },
+                {
+                    "role": "client",
+                    "content": "I-I-I feel fine."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay."
+                },
+                {
+                    "role": "client",
+                    "content": "I mean, my-my work is really man-manual labor-intensive so I'm usually working out in-in the hot sun the majority of the day, so I'm usually sweating out any like bad things I put in my system, so\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Have you noticed putting on any weight, or anything like--?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, a little bit, but nothing too-- you know. I'm not blo- I'm not bloated or anything."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Okay. And how about going to see the doctor? Have you gone to-- for a visit or anything recently?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, yeah, I've been to the doctor about maybe last year for a physical, but-- I mean, everything showed up to be fine, so\u2014"
+                },
+                {
+                    "role": "client",
+                    "content": "It's just... I dunno, it's like she's seeing something I'm not. And I get that she's worried, but it's tough, you know? Making changes... it feels like admitting there's something wrong when I don't feel it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It seems like you're feeling a bit puzzled by your wife's concerns since you're not experiencing any symptoms that make you feel unwell. It also sounds like making changes feels like it might imply there's a problem, which doesn't resonate with how you're feeling physically. Does that sound right?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, you got it. It's like, how do I make changes if I'm not even sure what I'm changing for, you know? It's confusing, and I don't wanna just... I dunno, pretend there's an issue when everything seems okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely understandable to feel confused when you're not certain what you might be changing for. Change can be daunting, especially if you're feeling okay. Let's explore what's important to you, and see how we might align that with any potential areas for growth."
+                },
+                {
+                    "role": "client",
+                    "content": "I guess, yeah, we can look at what matters to me... I'm a bit stuck though, 'cause on one hand, I wanna be healthy for her and me, but on the other, it's like, what's really got to change, you know? It's hard to see."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Would it be alright if we take a closer look together at your daily habits and discuss whether there might be areas to enhance your well-being, aligning with your wish to be healthy for both yourself and your wife?"
+                },
+                {
+                    "role": "client",
+                    "content": "Alright, we could do that. But I'm not too sure what you're gonna find, you know? I guess it wouldn't hurt to take a look."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I appreciate your openness to exploring this with me, and it's okay to feel uncertain. Our goal is to simply gain insights and perhaps uncover ways to support your well-being, without any pressure to identify a problem."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, okay, insights sound good. I just hope we don't go finding problems that ain't really there, you know? But I'm willin' to take a look, see what comes up."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, we'll focus on gathering insights together and you have my word that we'll approach this collaboratively, with your perspective at the forefront. Would you feel comfortable starting by sharing how a typical day looks for you?"
+                },
+                {
+                    "role": "client",
+                    "content": "Sure, a typical day, huh. Well, I mostly start early, you know, around 5 or 6 AM. Then it's a lotta physical work, sometimes skip breakfast, grab something quick for lunch, or we go out with the crew. It's non-stop till I get home."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like your days are quite full and demanding, starting early and going non-stop. It must be challenging to find time for meals, particularly breakfast, with such an intense schedule. How do you feel these habits contribute to your well-being?"
+                },
+                {
+                    "role": "client",
+                    "content": "Challenging? Yeah, you could say that. Sometimes I just don't feel hungry in the morning, or there's no time. As for my well-being, I dunno, it's like I'm getting by okay, I guess? Not sure how this all fits together."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Getting by is certainly a start, and it's understandable that with your busy schedule, meals can become secondary. Reflecting on how your body feels throughout the day might give us some clues about the impact of these habits on your well-being. Would you be willing to share how you manage the energy demands of your work with your current eating patterns?"
+                },
+                {
+                    "role": "client",
+                    "content": "Manage my energy, huh? Well, sometimes I'm beat by midday, gotta admit. Maybe it's 'cause I ain't eating right, but I thought I was doing enough to get through the day. It's a bit confusing, honestly."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely natural to feel a bit confused when we start examining our routines like this. Your awareness that your energy levels dip might be significant, and it's worth exploring. What do you do when you feel that midday exhaustion set in?"
+                },
+                {
+                    "role": "client",
+                    "content": "Usually, I just push through, y'know? Maybe grab a coffee or something. But it's tough, 'cause sometimes that don't even seem to do the trick."
+                },
+                {
+                    "role": "therapist",
+                    "content": "You're showing a lot of strength by pushing through those tough moments, and using strategies like grabbing a coffee to help. It's important to recognize how much you're already doing to manage your day. How do these moments affect the rest of your day?"
+                },
+                {
+                    "role": "client",
+                    "content": "Thanks for saying that, I appreciate it. But yeah, after those slumps, it can get rough. Sometimes I'm just not as sharp, or I get a bit short with my crew, which ain't good."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I appreciate your honesty in sharing the effects of those slumps on your day. With your permission, we could explore some strategies that might help reduce that midday fatigue and its impact on your interactions. Would that be something you're open to discussing?"
+                },
+                {
+                    "role": "client",
+                    "content": "That might be helpful, yeah. Just, I don't know, it's kinda hard to picture what else I could do, you know? But I'm willing to hear what you've got."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I'm glad you're open to the discussion. With your willingness, we can collaboratively look at some practical changes that might fit your lifestyle and potentially help with your energy levels. How would you feel about starting by exploring your morning routine?"
+                },
+                {
+                    "role": "client",
+                    "content": "Sure, we can start there. Mornings are always rushed, and I usually skip breakfast or just grab something quick. So, what do you think I should do differently?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's not easy adapting to new routines, especially with mornings as packed as yours. Perhaps we could think about simple, quick options for a nutritious start that don't add to your morning rush. Would you be open to experimenting a little with breakfast choices that are both convenient and sustaining?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, that could work, experimenting sounds alright. But I dunno, it's like, where do I even start with that, right? I'm not much of a cook or anything."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Starting something new can indeed be daunting, especially when cooking isn't your go-to. How about we brainstorm some no-cook or minimal preparation options together? This could be a simple first step in experimenting with your breakfast routine."
+                },
+                {
+                    "role": "client",
+                    "content": "Brainstorming sounds cool, might be good to shake things up a bit. Yeah, let's give that a shot. Just hoping it's something I can stick to, y'know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's great to hear that you're willing to try shaking things up; being open to change is a significant step. Together, we'll aim for tweaks to your routine that feel manageable and sustainable for you. Your openness to experimenting is a strong foundation for making positive changes."
+                },
+                {
+                    "role": "client",
+                    "content": "Alright, so what kinda options are we talking about? Like, stuff that's really easy to make but still, you know, good for you? I gotta admit, it's a bit hard to imagine switchin' things up."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, finding that balance between ease and nutrition can be a bit of a puzzle, but we're here to find solutions that fit your life. It's normal for it to feel challenging to envision a new routine, but we'll discover options that are both healthy and doable for you."
+                },
+                {
+                    "role": "client",
+                    "content": "So, what are the options then? You got any examples, 'cause I'm drawing a blank here..."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely understandable to feel uncertain when you're trying to come up with ideas on your own. How about we start by considering some easy options like yogurt with fruit, or overnight oats? These are just a couple of examples that are healthy, don't require cooking, and can be quite tasty."
+                }
+            ],
+            "case": "simulated"
+        },
+        {
+            "client goals": "reducing recidivism",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "What else has brought you here?"
+                },
+                {
+                    "role": "client",
+                    "content": "They found a little bag of weed."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "It's not a lot though."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "It's not like I was gonna sell it or anything. It's like\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Just enough for your own use?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, whatever, you know. It's California, no one cares."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah. Yeah. Yeah."
+                },
+                {
+                    "role": "client",
+                    "content": "So, what do we do next?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "I understand how the context in California might influence your perspective on the situation. Right now, let's focus on your feelings and how you've been coping with the stress that all this might be causing you."
+                },
+                {
+                    "role": "client",
+                    "content": "Just want to get through this. What's the next step?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like getting past this situation is really important to you. Could you share more about how you're managing day-to-day with this on your mind?"
+                },
+                {
+                    "role": "client",
+                    "content": "I'm handling it fine, just keeping busy. So about reducing the recidivism thing, how do we tackle that?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's great that you're keeping busy, as staying active can be a positive coping mechanism. If it's okay with you, we could explore strategies that could support you in your goal to move forward. Would you like to discuss how we can approach this together?"
+                },
+                {
+                    "role": "client",
+                    "content": "Sure, as long as it's straightforward and effective. What strategies are we talking about?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "I appreciate your readiness for a straightforward approach. Developing a plan might involve looking at habits and patterns that could be affecting your situation. Would you be open to discussing and possibly adjusting some daily routines as a starting point?"
+                },
+                {
+                    "role": "client",
+                    "content": "Okay, let's talk about daily routines. But can we make it quick?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Certainly, we can keep our discussion focused and efficient. Reflecting on our routines can often reveal small changes that make a big difference. How does your usual day look?"
+                },
+                {
+                    "role": "client",
+                    "content": "I usually wake up, do my job, hang out with friends, and relax in the evenings. How does changing that reduce recidivism?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Your daily activities are a solid foundation. Can you think of any aspects of your routine that might influence your future choices or opportunities for personal growth?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I guess I could cut back on the time I spend hanging out if that's the issue. But how is that related to personal growth or choices?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's great that you're considering adjustments. With your permission, I'd like to discuss how the quality of our interactions can impact our growth and choices. Could we explore how the time spent with friends might be directed in ways that align with your aspirations?"
+                },
+                {
+                    "role": "client",
+                    "content": "Fine, but keep it to the point. What do you suggest?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, I value your time and our focus. Considering the people we spend time with can influence our decisions, engaging in activities or discussions that are goal-oriented with your friends could contribute positively. How would you feel about integrating activities that help build skills or knowledge related to your interests?"
+                },
+                {
+                    "role": "client",
+                    "content": "Integrating skill-building activities could work if it doesn't take too much time. Got examples?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Certainly, we can explore options that are time-efficient. For instance, if you have an interest in a particular field, you might consider a short online course or a workshop that you and your friends could attend together. How does that resonate with your current goals and time constraints?"
+                },
+                {
+                    "role": "client",
+                    "content": "The workshop idea is fine. I'll think about it and see what's out there that fits our schedules."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I'm glad to hear you're open to the idea. Remember, the key is finding something that feels both manageable and rewarding for you and your circle. Please take your time exploring, and we can discuss any options you come across in our next session."
+                },
+                {
+                    "role": "client",
+                    "content": "Alright, I'll look into it and bring a few options next time. Anything else?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Your initiative is commendable. If it's okay with you, next time we might talk about how to assess these options in terms of the benefits they could provide. Does that sound like a plan you'd be comfortable with?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, that's fine. We'll see how it goes."
+                },
+                {
+                    "role": "therapist",
+                    "content": "That's the spirit! Taking things step by step can make the process more approachable and less overwhelming. I'm here to support you as you explore these new avenues."
+                }
+            ],
+            "case": "simulated"
+        },
+        {
+            "client goals": "reducing alcohol consumption",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "So now that we've discussed a little bit of your medical history and- and taking your vitals, I'd like to ask you a few more questions. The-"
+                },
+                {
+                    "role": "client",
+                    "content": "Sure."
+                },
+                {
+                    "role": "therapist",
+                    "content": "-the rise in your blood pressure is concerning to me, so I'd like to gather a bit more information about your lifestyle."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Have you had any major stressful events recently or any change in your work situation?"
+                },
+                {
+                    "role": "client",
+                    "content": "Not really, I haven't been stressed. Uh, I've been working steady, you know, these days, I'm glad to have a job, I really am happy that I'm working, so."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah, that's certainly true. I'd also like to ask about some health habits that can contribute to high blood pressure."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay, do you smoke at all?"
+                },
+                {
+                    "role": "client",
+                    "content": "No, I quit smoking 20 years ago, but I do have a couple of pints after work most days."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like having that time to unwind after work is something you value. It\u2019s great that you've taken a step toward better health by quitting smoking in the past. How do you feel about the ways in which you relax and spend your time after work?"
+                },
+                {
+                    "role": "client",
+                    "content": "I guess it's my way of winding down, but I get what you're saying about health. I'm not sure how much it affects my blood pressure though."
+                },
+                {
+                    "role": "therapist",
+                    "content": "3. It's understandable that you've found a routine that helps you cope with the day's stress. It seems you're recognizing there might be a connection with your relaxation habits and your health concerns. How does that awareness sit with you?"
+                },
+                {
+                    "role": "client",
+                    "content": "It's a bit unsettling, honestly. I know I probably should cut back on the pints, but it's not easy to find something else that works for relaxing. Do you have any suggestions?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Certainly, I can share some strategies that others have found helpful for managing stress. Would it be alright if we explored some alternative relaxation techniques together?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, that might help. I'm open to hearing about those strategies. I've tried a few things in the past with mixed results."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's good to hear you're open to exploring new strategies. Can you tell me about some of the things you've tried before for relaxation, and what about them worked or didn't work for you?"
+                },
+                {
+                    "role": "client",
+                    "content": "I\u2019ve occasionally gone for walks or listened to music, which sort of helps. But it doesn't quite do the trick like a pint does. So I'm a bit skeptical but willing to give your suggestions a shot."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's really positive that you have some activities, like walks and music, which you've found to be somewhat helpful. Finding the right fit for relaxation can be a journey, and I'm here to support you through that process. Let's explore together and see if we can enhance those activities or find new ones that provide you with the comfort you're seeking."
+                },
+                {
+                    "role": "client",
+                    "content": "Thanks, I appreciate that. I guess I'm just worried that nothing else will be quite as effective. But I'm willing to try what you suggest and see if it can work for me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Your willingness to try new approaches is a strong asset, and it's perfectly normal to have concerns about finding an effective substitute. Let's take it step by step and find what works best for you. Remember, I'm here to support you throughout this journey."
+                },
+                {
+                    "role": "client",
+                    "content": "Alright, step by step sounds manageable. What\u2019s the first step then?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "The first step is to build on what you've already found to be somewhat helpful. We might start with a structured plan for those walks or perhaps introduce activities like mindfulness or breathing exercises to pair with listening to music. How does that sound as a starting point for you?"
+                },
+                {
+                    "role": "client",
+                    "content": "Mindfulness and breathing exercises sound interesting, though I can't quite picture how they'll replace a pint. But I'm willing to try and see how they fit into my routine."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's natural to be uncertain about how these new techniques will compare, but I'm glad to hear you're open to trying them out. Could you share more about what times of day you feel most in need of relaxation, or when you typically find yourself reaching for a drink?"
+                },
+                {
+                    "role": "client",
+                    "content": "Usually, it\u2019s after work or during the evenings when I feel the need to unwind, that's when I reach for a drink. The stress from the day just piles up, and it feels like having a pint is the quickest way to deal with it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Understanding that evenings are particularly stressful, what activities do you enjoy or find calming that we could look into integrating into your post-work routine to help you unwind?"
+                },
+                {
+                    "role": "client",
+                    "content": "I like reading a good book or watching a bit of TV to relax after work. Sometimes cooking a meal can be quite calming too. Could we work these into my post-work routine?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Absolutely, incorporating what you naturally gravitate towards, like reading, watching your favorite shows, or cooking, into a structured post-work routine could be very beneficial. We can create a plan that includes these activities as a way to transition from work to relaxation time. How would you feel about setting aside specific times for these activities to help you unwind?"
+                },
+                {
+                    "role": "client",
+                    "content": "Setting specific times sounds doable. It's hard to imagine it being as satisfying as a drink, but I'm curious to see if it helps."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely understandable to wonder about the satisfaction level of new routines compared to old habits. It's great that you're open to exploring their potential to help you unwind. Let's see how these structured activities might bring a sense of calm to your evenings."
+                },
+                {
+                    "role": "client",
+                    "content": "I\u2019m ready to give it a shot, though I'm skeptical it'll work as well as you say. But, when do we start?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "We can start as soon as you're ready, and we'll take it one step at a time together. It's okay to have doubts, and it's courageous of you to try new approaches in spite of them. How about we begin by selecting one activity to focus on for the first week?"
+                },
+                {
+                    "role": "client",
+                    "content": "Let's start with reading then. I've been meaning to finish a book I started a while back. Who knows, it might be the distraction I need."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Reading is a wonderful choice to start with. It can be a relaxing escape and a way to transition your mind from work stress to personal time. When would be the best time for you to comfortably settle in with your book?"
+                },
+                {
+                    "role": "client",
+                    "content": "I could probably spend around 30 minutes with my book right after dinner. That's usually when I start feeling the urge for a drink, so it might be a good time to try something different."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Using that time right after dinner for reading is a thoughtful approach. It's a way of redirecting the time you might feel the urge to have a drink into immersing yourself in a story. How do you imagine setting up a cozy reading environment that will enhance this new routine for you?"
+                },
+                {
+                    "role": "client",
+                    "content": "I guess I could try lighting some candles and make a nice cup of tea instead of pouring a pint. Doesn't sound too bad, though I'm not sure it'll be as relaxing."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Creating a peaceful reading environment with candles and a warm cup of tea sounds like a nurturing way to care for yourself during that time. It's a positive step towards discovering new comforts and pleasures in your daily routine."
+                },
+                {
+                    "role": "client",
+                    "content": "I'll give it a go, but I can't help thinking that I might still miss the old comfort of a pint. Only time will tell if this can really fill that gap."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's completely natural to have those feelings of uncertainty when making changes to your habits. Every small step you take is an important part of the journey, and it's alright to acknowledge the things you might miss while also looking forward to new experiences. I'm here with you through this process."
+                }
+            ],
+            "case": "simulated"
+        },
+        {
+            "client goals": "compliance with rules",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "So what's been going on?"
+                },
+                {
+                    "role": "client",
+                    "content": "I just want my call, that's it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "All right. yeah, I was told that you're phone calls was taken away"
+                },
+                {
+                    "role": "client",
+                    "content": "[scoffs] Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "What-what happened?"
+                },
+                {
+                    "role": "client",
+                    "content": "I don't know. Some of-- One of the officers, it's like he has it out for me or something. I don't- I don't know what it is. Something about me not making my bed, something about my attitude. I don't know, I just want my call, man."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. yeah, it was weird when I, uh, got that report because for the most part since you've been here, uh, you'd been like, uh, model-model resident, uh, always making their bed, uh, been pretty, uh, respectful of the staff, of all the other residents. So, uh, is it something to do with you getting out in three weeks? It must be pretty hard."
+                },
+                {
+                    "role": "client",
+                    "content": "I just wanna contact my mom, that's it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm. Yeah, you used to have contact with your mom, you know, almost every other night and now for just about a week, you haven't even gotten to talk to her. I can imagine that being pretty difficult. I remember you saying something about like your dad's birthday coming up?"
+                },
+                {
+                    "role": "client",
+                    "content": "My dad's birthday is tomorrow."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay."
+                },
+                {
+                    "role": "client",
+                    "content": "And I just wanted my call so I can talk to my mom. That's it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Like I said, it's been, um, a long time and this is basically the first time that we've seen this behavior from you, so I know for a lot of other guys right before they get out, uh, a lot of anxiety, a lot of frustration comes around because they haven't been out in a while and then like the pressures of being on the outside are starting to settle in. So is that something might be going on with you?"
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "smoking cessation ",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "Hey, can I help you?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, I hope so. Um, my workplace has just gone smoke-free. I-I'm not-not very happy about it. I'm gonna keep smoking, but I was wondering if there's anything that-that can help me like get through the day. It's like, you know, go get my beer and smoke cigarettes after work."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So your workplaces went smoke-free and you're not too pleased, huh?"
+                },
+                {
+                    "role": "client",
+                    "content": "No. I'm not gonna quit smoking. I mean, I like it. It helps me relax. So, I mean, I don't see what the big deal is."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Tell me a little bit about how smoking fits in your day. It'll help with the\u2014"
+                },
+                {
+                    "role": "client",
+                    "content": "I mean, I smoke a little less than a pack a day. It's not too bad. Um, I've probably smoked for the last five years, but I-I-I mean, could quit if I wanted to, but I don't really want to right now."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. So you feel like, right now, smoking's a pretty important part of your life. It's not something you're ready to change, but if the time came when you did decide to quit, you feel pretty confident that you could go ahead and do that."
+                },
+                {
+                    "role": "client",
+                    "content": "Sure. I can quit."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. What makes you so confident?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I mean, I don't see why I couldn't, I-- although I have not ever tried to quit, it's just something that I do for fun, you know, on breaks at work, in the morning, and after work."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm. And so in terms of, uh, uh, readiness to actually go ahead and make a quit attempt, where do you think you fall on the scale of 1 to 10, where one is, I'm not considering it at all, and 10 is, I'm definitely ready, I wanna quit."
+                },
+                {
+                    "role": "client",
+                    "content": "I am probably a two. I-I haven't even thought about quitting and until this great announcement at work today, I- I'm totally not gonna quit smoking."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. What made you say two instead of one?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, I mean, anything's possible. I mean, I-I guess I could maybe be convinced. Yeah. Is there some-- I mean, are there things I can try that would make me like want to quit smoking?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, there are a lot of products available now that can actually help you curb that urge to smoke. We have products that can help to replace nicotine, which can help to decrease withdrawal symptoms that you might experience when quitting or cutting down and also some medications that your doctor could prescribe for you that might take away even some of the desire to smoke."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay. Well, that\u2019s good information. I mean, I'm not gonna do anything today. I just need to know my options, but that's encouraging. If I decided to quit smoking, I-I do have at least tools to help me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Sure. And back to that scale, you mentioned, you said you were a two. What do you think it would take to move you up to a four or five?"
+                },
+                {
+                    "role": "client",
+                    "content": "I don't know. I guess if my friends, like if one of my friends decided to like quit with me, that would probably help too, but I-- all my friends love to smoke, so I don't see that happening in the near future."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Sure. I wonder if now that your workplace is going smoke-free, if there will be some people at work who planning to quit."
+                },
+                {
+                    "role": "client",
+                    "content": "That's a good point. I hadn't really thought about that. That-that's a good idea. Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Well, it sounds like you're really here just for information today. I'm happy to help you pick out some of these products if and when you decide that the time is right for you."
+                },
+                {
+                    "role": "client",
+                    "content": "Okay. Well, thanks a lot."
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "weight loss",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "So, Liz, what's something that you'd like to change or maybe that you're feeling two ways about right now?"
+                },
+                {
+                    "role": "client",
+                    "content": "Um, I really want to start working out again. Definitely wanna get back in it, have a routine, and just be healthy."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay, and-and why would you want to make this change?"
+                },
+                {
+                    "role": "client",
+                    "content": "Um, I'm sick of feeling the way I do. I feel kinda sluggish. Especially with the winter coming, I think I want to have more energy."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "Um, I don't like the way my clothes fit or don't fit me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "Just, I don't feel comfortable."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah. So, you're not feeling comfortable with the way that, you said, your clothes fit."
+                },
+                {
+                    "role": "client",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "therapist",
+                    "content": "What are some of the reasons why, um, it would be good for you to kinda make this change?"
+                },
+                {
+                    "role": "client",
+                    "content": "Um, I know exercise is-- in the past, has always made me feel good. I felt good about myself, and just in general, exercise, I know, makes me feel good. I want to be a good example for my kids. I want them to feel like that's a part of life-"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "-exercising. So, I want-- I really just want to go get back in a routine."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, to heal-- feel healthy for yourself as well be a good role model for your kids?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, if you did decide to get exercising more into your daily routine, how would you go about doing it?"
+                },
+                {
+                    "role": "client",
+                    "content": "Um, I don't know. I'd probably have to sit down maybe with my husband and try to figure out a good time for me to be able to do that, where he'd be home with the kids and I'd be going to do that, whether it's morning-time, evening, maybe the weekends."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "Just to find the time to be able to do it, or what works in our schedule."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, it's that balance of doing something for yourself, but it sounds like you don't want that schedule to affect too much into your family routine."
+                },
+                {
+                    "role": "client",
+                    "content": "Right, yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, on a scale from 1 to 10, 1 being not important and 10 being very important, where would you rate yourself on how important it is to start exercising more?"
+                },
+                {
+                    "role": "client",
+                    "content": "Mm, I would like to say a seven or an eight, that that's how important it is to me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay, and how come not at like a five or a six?"
+                },
+                {
+                    "role": "client",
+                    "content": "Because I'm really sick of being overweight."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "Not ha-- I just don't like being unhealthy. It doesn't make me feel good, so I'm motivated to change, it's just getting there."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, to summarize, it's important for you to do this. You're starting to feel sluggish, you're not feeling healthy, and you know that you've got other people in your family watching you, and you want to be a good role model for them to know that this is gonna be just a part of your life, is your exercise. Yet for you, you're struggling just a little with the logistics of when to schedule time for you so it doesn't interfere too much with your family."
+                },
+                {
+                    "role": "client",
+                    "content": "Exactly, yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, knowing this, what do you think you'll do next?"
+                },
+                {
+                    "role": "client",
+                    "content": "Mm, I'll probably, I don't know, find-- Now, while it's still somewhat okay outside, maybe pick days I'm gonna go for walks or runs, um, maybe look for a gym close to the house so that I know I can go there quickly or maybe that has daycare, um, yeah, maybe I'll just start to look for that, and find ways I can do it first."
+                },
+                {
+                    "role": "therapist",
+                    "content": "That's great. It sounds like you've got some options and leads on how- on how to get that done."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah."
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "asthma management",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "I understand that your asthma symptoms have been just really out of control. So, we need to look at some of the ways that you can get healthy and not be back here again."
+                },
+                {
+                    "role": "client",
+                    "content": "Mm-hmm. Yeah, I de-I definitely don't wanna come back here. But, uh, the doc said Oscar, my dog, is connected to my asthma symptoms. But the-"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "client",
+                    "content": "-ridiculous part is I've had him for 12 years before, and now it's a problem."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, you sound a bit surprised by that. But I'm sure that you've seen some of the material that-that the clinic gave you about asthma symptoms and managing your asthma, and pets are a really big source of problems in that respect."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, but I-- Um, let me just clarify, I've seen the materials, I have them-"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "-I have even read them. All I've been doing is taking the medicine. So, I don't know that much about this."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, uh, wait a second, Sal, what do you mean you-you- ha- If you-- As in-- You know to be informed about-- I'm just really taken aback by that because I understand from your chart that you have a young baby-"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "-a new baby."
+                },
+                {
+                    "role": "client",
+                    "content": "John Carlo, yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "-and you are very concerned about your health, you wanna be there for your baby and that you've already taken some steps, you've-you've almost quit smoking-"
+                },
+                {
+                    "role": "client",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "therapist",
+                    "content": "-which is fantastic. So, the next step is to really deal with the dog, deal with the pet. I know it's- so- It's gonna be hard to do that. But there are always people who will adopt animals. I'm sure that you have friends or family members."
+                },
+                {
+                    "role": "client",
+                    "content": "Uh, this is a little too much for me now. First of all, John Carlo is taken care of. That's fine. He doesn't have- no asthma from the dog. It's just me. I don't ha\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's you that I'm worried about, Sal. It's you that I'm worried about, okay? The-the symptoms are worse. You've had two or three major asthma attacks. And-and do you appreciate how-- This is, uh, a risk to your life that there are some-some adults with severe asthma who actually can die as a result of their symptoms? It-it truly is something to take very, very seriously. I can't emphasize that enough."
+                },
+                {
+                    "role": "client",
+                    "content": "So, Oscar is gonna make me die? He hasn't made me die in 12 years, and the doctor is saying, \"Oh, I don't know if it's the stress, the finances, the drinking.\" So, what are we doing saying Oscar could make me die? I've had him for 12 years."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Sal, what, uh, do you understand that what happened 6 years ago or 10 years ago, your asthma is progressively getting worse. You know very well that the puffers, the strength of the medication is getting higher and higher, and there's only so much that can be done with medication alone. You know this."
+                },
+                {
+                    "role": "client",
+                    "content": "Well, they can keep giving me more medicine and give me the strongest one, and I'll keep Oscar."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Sal, you're almost on the strongest one. And if Oscar is that important to you, then do you put Oscar higher than your baby, than your wife? Like, uh, that makes no sense to me. Do you understand how important this is?"
+                },
+                {
+                    "role": "client",
+                    "content": "I understand, but I don't think you get my situation. I've had this dog for 12 years. So, I'm not just gonna up and get him out of my house when I don't even know if that's the main thing."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Uh, okay, well"
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "reducing recidivism",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "So you're sick of this?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah. I-I just-- I can't shoplift anymore. You know, I got- I got caught again. And uh, you know, I-I got suspended, I got back to school, so I'm-I'm uh-- I'm gonna mess up my whole life here, unless I can stop this."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah, it's bad. My friends and I, we just-- I mean, it's fun and uh-- so I don't know what to do, but I- but I gotta change."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay."
+                },
+                {
+                    "role": "client",
+                    "content": "I want it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "So, it sounds like you're ready. You're ready to give this up."
+                },
+                {
+                    "role": "client",
+                    "content": "Yeah."
+                },
+                {
+                    "role": "therapist",
+                    "content": "But, maybe the path to doing that isn't so clear."
+                },
+                {
+                    "role": "client",
+                    "content": "Right. I don't know what I'm gonna do, I got some friends. These guys are-- they're bad news, but they're my friends."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "And, uh, and it's fun."
+                },
+                {
+                    "role": "therapist",
+                    "content": "And it's fun."
+                },
+                {
+                    "role": "client",
+                    "content": "You know?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Mm-hmm."
+                },
+                {
+                    "role": "client",
+                    "content": "Nothing-nothing much else going on that's as fun as this. We go in, we steal these CDs. It was working out fine, but\u2014"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Uh-huh."
+                }
+            ],
+            "case": "real"
+        },
+        {
+            "client goals": "weight loss; diet",
+            "messages": [
+                {
+                    "role": "therapist",
+                    "content": "Hi, John. Nice to see you again. So, tell me, how are things going?"
+                },
+                {
+                    "role": "client",
+                    "content": "Well, doc, I know you told me that I need to lose weight. And even though the scale didn't show today, I was able to lose about 5 pounds, but then I gained it right back."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Well, I appreciate you bringing your weight to the forefront. Do you mind if we explore this issue further?"
+                },
+                {
+                    "role": "client",
+                    "content": "No, by all means. I know we have to discuss it."
+                },
+                {
+                    "role": "therapist",
+                    "content": "All right. Uh, well, it sounds like you've been struggling with your weight recently. And I understand how difficult it is to lose the weight and then have it come back again. So, tell me what you did to lose that initial 5 pounds."
+                },
+                {
+                    "role": "client",
+                    "content": "I started watching what I ate and I ate less. I've been eating more fruits and vegetables. I've also been walking a lot. I'm walking up to 20 minutes a day now. I saw the weight come slowly off, um, and I felt better. But then when I watched it come back on again, you know, I gave up."
+                },
+                {
+                    "role": "therapist",
+                    "content": "But you did have some success. Tell me how you felt when you lost the weight."
+                },
+                {
+                    "role": "client",
+                    "content": "I felt great and I felt really proud of myself. I thought that this was something that I could do."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Okay. Well, it sounds like you realized that when you lost the weight you feel better and that it's gonna affect your overall health. So, tell me what you think changed that caused you to gain the weight back."
+                },
+                {
+                    "role": "client",
+                    "content": "I think it might have been the fruit, doc. I didn't realize how much sugar was in fruit juice, and I've been drinking a lot of it because I thought it was healthier."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's really commendable that you've taken steps to improve your diet by choosing fruits and being mindful of your eating. It's a common oversight to not realize the sugar content in fruit juice. Let's think about how we can continue to make choices that align with your well-being."
+                },
+                {
+                    "role": "client",
+                    "content": "I appreciate that, and I'm willing to learn more about making better choices. What kinds of foods or drinks should I focus on, and how can I keep making progress without slipping back?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "I'm glad to see your enthusiasm to learn and make progress. With your permission, may we explore some options together on how to incorporate balanced nutrition and hydration into your daily routine?"
+                },
+                {
+                    "role": "client",
+                    "content": "Yes, that sounds good. I want to understand what a balanced diet looks like for me and figure out a hydration strategy that doesn't lead to weight gain."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's insightful of you to seek an understanding of balance in your diet and hydration. Finding the right mix can be quite a personal journey, as everyone's body and lifestyle are unique. Together, we can work on identifying what a balanced diet might look like specifically for you and how to stay hydrated in a way that supports your health goals."
+                },
+                {
+                    "role": "client",
+                    "content": "I'm ready to get started on this. Can we begin with some basic guidelines on balanced nutrition? I think having a clear structure will help me avoid making the same mistakes with my diet."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Certainly, let's start by discussing the components of a balanced diet. Can you tell me about your typical daily meals and what you enjoy eating? This will help us create guidelines that are not only healthy but also enjoyable for you."
+                },
+                {
+                    "role": "client",
+                    "content": "For breakfast, I usually have some cereal or toast, and I grab a coffee on my way to work. Lunch is often a sandwich or salad, and dinner varies, but there's often some meat and vegetables involved. I enjoy pasta dishes, and I've always been partial to a glass of juice or soda with meals."
+                },
+                {
+                    "role": "therapist",
+                    "content": "It sounds like you've established a routine with your meals, and you have preferences that bring you enjoyment. Reflecting on these preferences and the routines you've described, it seems that finding a balance that includes what you enjoy is important to you while we look for nutritious choices that fit into your lifestyle."
+                },
+                {
+                    "role": "client",
+                    "content": "I agree, it is important to me to enjoy what I eat. I'm noticing now that my drink choices may not be helping my goals. Could you suggest alternative drinks that might be better for me?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's great that you're recognizing the impact your drink choices might have on your goals. Water is a fundamental and healthy choice for hydration. We can also explore options like herbal teas or infused waters that are flavorful without adding extra calories."
+                },
+                {
+                    "role": "client",
+                    "content": "I think I can replace soda with infused water or herbal teas then. But what about when I'm at work or on the go? How can I make healthy drink choices in those situations?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "That's a good question, it shows you are thinking ahead about maintaining your healthy choices. What options do you see available at your workplace or along the way, and what do you think could be a practical approach for you to ensure you have access to these healthier drink alternatives?"
+                },
+                {
+                    "role": "client",
+                    "content": "At work, there's usually just a vending machine with sodas and juices, and the nearby shops mostly sell similar things. Maybe I could bring a bottle of infused water from home? I'm not sure how to keep it interesting day-to-day, though."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Bringing a bottle of infused water from home is a proactive step towards your health goals, and it shows your commitment to making change. To keep it interesting, you might experiment with different combinations of fruits and herbs to find the flavors you love. Remember, small changes can make a big difference over time."
+                },
+                {
+                    "role": "client",
+                    "content": "That's a good strategy; I'll try mixing up the flavors with fruits and herbs. And for an extra push, perhaps my wife can help by picking up fresh ingredients when she does the shopping?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's wonderful that you're considering involving your wife and finding ways to vary the flavors. That kind of support and variety can really help in maintaining your new habits. How do you feel about discussing this plan with her?"
+                },
+                {
+                    "role": "client",
+                    "content": "I feel hopeful about discussing it with her. She's always supported my health goals, and I think she'll be on board with helping me find fresh ingredients for my infused waters."
+                },
+                {
+                    "role": "therapist",
+                    "content": "I'm glad to hear you're feeling hopeful and that you have support from your wife. It's important to have a solid support system when making lifestyle changes. What other strategies might you consider to stay on track with your goals, especially on challenging days?"
+                },
+                {
+                    "role": "client",
+                    "content": "Maybe I should keep a log of what I drink each day to stay aware and accountable. What do you think of using a mobile app for tracking, or is there a better method?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Keeping a daily log is a thoughtful idea and using a mobile app could make tracking convenient and efficient for you. It's all about finding what works for you and helps you stay accountable. Have you come across any apps that you might find user-friendly and helpful?"
+                },
+                {
+                    "role": "client",
+                    "content": "I've seen a few apps that seem user-friendly, but I'm undecided. Which apps do you recommend for tracking my diet and activity levels?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "It's great to see you taking initiative in researching apps that could assist you. While I can't endorse a specific app, looking for ones with features that resonate with you, like ease of use and motivational reminders, could be key. How do you feel about exploring reviews or getting recommendations from friends who have similar goals?"
+                },
+                {
+                    "role": "client",
+                    "content": "I'll look into the apps more deeply and see what others are saying in reviews. I think hearing from friends who've successfully used these apps could also give me a better sense of which one might work for me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Reflecting on reviews and seeking advice from friends who share your journey sounds like a wise approach. It can provide you with valuable insights and support, helping you make an informed decision that aligns with your needs and preferences."
+                },
+                {
+                    "role": "client",
+                    "content": "I appreciate the suggestion; I'll reach out to a couple of friends this week and gather their insights on the apps they've used. It's reassuring to have guidance in making a choice that's right for me."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Reaching out to your friends and using their experiences as guidance shows you're proactive in your decision-making process. It's great that you find reassurance in getting support and perspectives from others who understand your journey."
+                },
+                {
+                    "role": "client",
+                    "content": "I'm on it, thank you. I also wonder if adjusting meal sizes or the timing of my eating might help\u2014any thoughts on that?"
+                },
+                {
+                    "role": "therapist",
+                    "content": "Exploring different aspects of your eating habits, such as meal sizes and timing, can be a significant step. It's about tuning in to your body's needs and finding the right balance that works for you. How do you feel about the idea of gradually introducing changes to see what feels best?"
+                },
+                {
+                    "role": "client",
+                    "content": "I'm open to trying gradual adjustments to my meal sizes and timing. It feels a bit daunting, but I'm willing to experiment to find what feels right for my body."
+                },
+                {
+                    "role": "therapist",
+                    "content": "Your willingness to experiment and find what suits your body is commendable. It's normal for changes to feel challenging at first, and I'm here to support you through this journey. How can I assist you in making these adjustments more manageable?"
+                }
+            ],
+            "case": "simulated"
+        }
+    ]
+}
