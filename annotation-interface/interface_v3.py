@@ -3,8 +3,12 @@ import streamlit.components.v1 as components
 import json
 from data_utils import *
 import os
+import streamlit_survey as ss
+
+survey = ss.StreamlitSurvey()
 
 BUCKET_NAME = st.secrets.filenames["bucket_name"]
+DATASET_FILE = st.secrets.filenames["dataset_file"]
 
 st.set_page_config(layout="wide")
 
@@ -14,9 +18,11 @@ save_on_cloud = False
 # st.markdown(
 #     """
 #     <style>
-#     .stApp { 
-#         background-color: #A6D8B5
-#     }
+#     .stSelectbox > div[data-baseweb="select"] > div {
+# 		background-color: white;
+#         color: black;
+#     	        padding: 10px;
+# 	}
 #     </style>
 #     """,
 #     unsafe_allow_html=True
@@ -54,6 +60,9 @@ def update_global_dict(keys, dump = False):
             save_dict_to_gcs(BUCKET_NAME, f"data/state_eval.json", global_dict)
         else:
             json.dump(global_dict, open(f'data/state_eval.json', 'w'))
+
+def select_main_option():
+    st.session_state.selected_main_option = st.session_state.main_option
 
 def example_finished_callback():
     for _ in st.session_state:
@@ -103,11 +112,11 @@ def get_id():
             st.markdown(f'## Annotation Interface')
             st.warning("""Before you log in and begin annotating data,
                         please ensure you have read and fully understood our research information sheet.
-                        :red[**By providing your Email ID, you are providing your informed consent**] to
+                        :red[**By providing your Prolific ID, you are providing your informed consent**] to
                        participate in this research project. Please note that this study may contain
                        conversations related to distressing topics. If you have any questions or 
                        concerns about the research or your role in it, please reach out to our team before proceeding.""", icon="⚠️")
-            st.text_input("Email ID", key="pid", on_change=update_global_dict, args=[["pid"], "True"])
+            st.text_input("Enter your Prolific ID", key="pid", on_change=update_global_dict, args=[["pid"], "True"])
             st.session_state["reload"] = True
             return False
 
@@ -145,10 +154,10 @@ if __name__ == "__main__":
     
     if "testcases_text" not in st.session_state:
         if save_on_cloud:
-            testcases = read_or_create_json_from_gcs(BUCKET_NAME, f"processed_dict.json")
+            testcases = read_or_create_json_from_gcs(BUCKET_NAME, DATASET_FILE)
             eval_info = read_or_create_json_from_gcs(BUCKET_NAME, f"data/session_level_definitions.json") 
         else:
-            testcases = json.load(open('processed_dict.json', 'r'))
+            testcases = json.load(open('processed_dict_g1.json', 'r'))
             eval_info = json.load(open('data/session_level_definitions.json', 'r'))
         st.session_state["testcases_text"] = testcases
         st.session_state["eval_text"] = eval_info
@@ -160,6 +169,7 @@ if __name__ == "__main__":
     # print(print_dict)
 
     testcases = st.session_state["testcases_text"]
+    #total_conv = len(testcases)
     eval_info = st.session_state["eval_text"]
 
     if get_id():
@@ -176,27 +186,26 @@ if __name__ == "__main__":
         for key in global_dict:
             st.session_state[key] = global_dict[key]
 
-        testcase = testcases[global_dict["testcases"][example_ind]]
+        if example_ind >= len(global_dict["testcases"]):
+            st.title("Thank you!")
+            st.balloons()
+            st.success("You have annotated all the examples! 🎉")
+        else:
+            testcase = testcases[global_dict["testcases"][example_ind]]
 
-        count_required_feedback = 0
-        count_done_feedback = 0
-        # for t in range(len(testcases)):
-        with c1.container(height=1000):
-            if example_ind >= len(global_dict["testcases"]):
-                st.title("Thank you!")
-                st.balloons()
-                st.success("You have annotated all the examples! 🎉")
-            else:
-                # st.markdown(testcases[t])
+            count_required_feedback = 0
+            count_done_feedback = 0
+            # for t in range(len(testcases)):
+            with c1.container(height=1000):
                 c_index = testcase['conv_index']
                 h_index = testcase['helper_index']
-                st.header(f"Case {c_index}, Helper {h_index}")
-                st.markdown(f"""Instructions: Below is a :blue[conversation context] for conversation {c_index}. 
-                            The helper response in red has been identified as a flawed response. 
-                            You are also given a better response and feedback. 
-                            Your task is to read throuhgh the conversation, :green[better response] and 
-                            :green[feedback] to identify the areas in the :red[helper response] that need improvement in the response.""")
-                
+                st.subheader(f"Case {example_ind + 1} of {len(global_dict['testcases'])}")
+                st.markdown(f"""Instructions: Below is a :blue[conversation context] for psychotherapy conversation {c_index}. 
+                                The helper response in red has been identified as a flawed response. 
+                                You are also given a better response and feedback. 
+                                Your task is to read through the conversation, :green[Better response] and 
+                                :green[Goal] to identify the areas in the :red[flawed response] that need improvement.""")
+                st.markdown(f"""Disclaimer: The conversations might contain grammatical or structural errors. Please ignore them when annotating.""")
 
                 conv = testcase["input"]
                 better_response = testcase["response"]["alternative"]
@@ -205,44 +214,56 @@ if __name__ == "__main__":
                 for i in range(len(conv) - 1):
                     st.markdown(f':blue[{conv[i]}]')
                 st.markdown(f':red[{conv[-1]}]')
-                st.subheader("Better Response and Feedback")
+                st.subheader("Better Response")
                 st.write(f":green[Better Response: {better_response}]")
-                st.write(f":green[Feedback: {feedback}]")
-                    
-        with c2.container(height=1000):
-            if example_ind >= len(global_dict["testcases"]):
-                st.title("Thank you!")
-                st.balloons()
-                st.success("You have annotated all the examples! 🎉")
-
-            else:
+                        
+            with c2.container(height=1000):
+                feedback = testcase["response"]["feedback"]
                 with st.container():
                     st.header("Bad Areas Annotation")
-                    options = ["Is the helper asking questions that are too focused with closed-questions instead of exploring with open-ended questions?", 
-                        "Is the helper not exploring the details of the situation the seeker is coming with?", 
-                        "Is the helper asking questions without a clear intention/goal?", 
-                        "Is the helper not encouraging expression of feelings?", 
-                        "Is the helper turning the attention to other people instead of the seeker when asking questions? (i.e., asking what person X did, instead of asking how the seeker felt about X's behavior)", 
-                        "Is the helper asking questions without empathy?", 
-                        "Is the helper asking lengthy or multiple questions at once?", 
-                        "When asking questions, is the helper trying to cover everything instead of focusing on one aspect?", 
-                        "Is the helper asking questions that question their claims, or come off mistrusting, or asking questions to fact check? (tell me what data you have that supports that”, do you have any evidence that you'd be X if you did Y?)", 
-                        "Is the helper giving too much or premature advice, answers, or solutions? This could be giving suggestions without first understanding the situation to know if it is applicable.", 
-                        "Is the helper telling people what to do, giving direct advice “you should”?", 
-                        "Is the helper imposing beliefs or personal values on seekers? ---whether that is by trying to debate, convince, or just assume. Instead, the helper should allow the seeker to decide for themselves, instead of deciding for them."]
-                    rating_scale = ["Select an option", "Yes", "No", "Not Relevant"]
-
-                    for j, option in enumerate(options):
-                        count_required_feedback += 1
-                        radio_key = f"option_{j}_{example_ind}"
-                        st.write(f"{option}")
-                        default_value = " " if options else "None"
-                        selection = st.radio(" ", rating_scale, index=0, on_change = update_global_dict, args = [[radio_key]], key= radio_key)
-                        if radio_key in st.session_state and st.session_state[radio_key] != "None":
-                            count_done_feedback += 1
-
-
-                st.checkbox('I have finished annotating', key=f"finished_{example_ind}", on_change=update_global_dict, args=[[f"finished_{example_ind}"]])
+                    st.markdown(f':green[**GOAL: {feedback}**]')
+                    st.markdown(f"""Based on the goal above, select below which areas in the helper response need improvement and select the subareas accordingly""")
+                    main_options = ["None", "Questions", "Suggestions"]
+                    subskill_options = [["The helper is asking questions that are too focused with closed-questions instead of exploring with open-ended questions.", 
+                        "The helper is exploring the details of the seeker's situation.", 
+                        "The helper is asking questions with a clear intention/goal.", 
+                        "The helper is encouraging expression of feelings.", 
+                        "There is a question in the flawed response.",
+                        "The helper is focusing on the seeker instead of turning the attention to other people when asking questions. (i.e., asking what person X did, instead of asking how the seeker felt about X's behavior)", 
+                        "The helper is asking questions with empathy.", 
+                        "The helper is asking lengthy or multiple questions at once.", 
+                        "When asking questions, the helper is focusing on one aspect instead of trying to cover everything."], 
+                        ["The helper is asking questions that come off as mistrusting, or asking questions to fact check.", 
+                        "The helper is giving too much premature advice, answers, or solutions. This could be giving suggestions without first understanding the situation to know if it is applicable.", 
+                        "The helper is telling seeker what to do or giving direct advice “you should”.", 
+                        "The helper is imposing beliefs or personal values on the seeker."]]
+                    select_key = f"skill{example_ind}"
+                    count_required_feedback += 1
+                    selected_main_option = st.multiselect("Choose a main category", options = main_options, kwargs = (select_key), key= select_key)
+                    if select_key in st.session_state and st.session_state[select_key] != "None":
+                        count_done_feedback += 1
+                    if "None" not in selected_main_option:
+                        with st.container():
+                            if "Questions" in selected_main_option and "Suggestions" in selected_main_option:
+                                subskills = subskill_options[0] + subskill_options[1]
+                            elif "Questions" in selected_main_option and "Suggestions" not in selected_main_option:
+                                subskills = subskill_options[0]
+                            elif "Suggestions" in selected_main_option and "Questions" not in selected_main_option:
+                                subskills = subskill_options[1]
+                            else: 
+                                subskills = []
+                            for j, option in enumerate(subskills):
+                                count_required_feedback += 1
+                                slider_key = f"subskill_{j}_{example_ind}"
+                                st.write(f"**{j+1}. {option}**")
+                                default_value = " " if subskills else "None"
+                                selection = survey.select_slider(" ", options=["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"], kwargs = (slider_key), key= slider_key)
+                                if slider_key in st.session_state and st.session_state[slider_key] != "None":
+                                    count_done_feedback += 1
+                        st.checkbox('I have finished annotating', key=f"finished_{example_ind}", on_change=update_global_dict, args=[[f"finished_{example_ind}"]])
+                    else:
+                        with st.container():
+                            st.write("Please select a main category to see the subskills.")
 
                 if f"finished_{example_ind}" in st.session_state and st.session_state[f"finished_{example_ind}"]:
                     if count_done_feedback != count_required_feedback:
