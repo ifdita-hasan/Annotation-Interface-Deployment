@@ -13,7 +13,7 @@ DATASET_FILE = st.secrets.filenames["dataset_file"]
 st.set_page_config(layout="wide")
 
 # Change it to True when you want to store on Google Cloud
-save_on_cloud = False
+save_on_cloud = True
 
 # st.markdown(
 #     """
