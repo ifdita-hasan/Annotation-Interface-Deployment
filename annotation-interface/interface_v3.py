@@ -190,6 +190,7 @@ if __name__ == "__main__":
             st.title("Thank you!")
             st.balloons()
             st.success("You have annotated all the examples! 🎉")
+            st.success("Here is your completion code: C17FE3ZT")
         else:
             testcase = testcases[global_dict["testcases"][example_ind]]
 
