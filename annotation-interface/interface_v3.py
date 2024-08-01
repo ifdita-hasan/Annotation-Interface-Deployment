@@ -215,7 +215,7 @@ if __name__ == "__main__":
                     st.markdown(f':blue[{conv[i]}]')
                 st.markdown(f':red[{conv[-1]}]')
                 st.subheader("Feedback")
-                st.markdown(f':green[**Feedback: {feedback}**]')
+                st.markdown(f':green[{feedback}]')
                         
             with c2.container(height=1000):
                 with st.container():
