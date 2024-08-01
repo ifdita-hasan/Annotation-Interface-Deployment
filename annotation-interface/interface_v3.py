@@ -238,7 +238,6 @@ if __name__ == "__main__":
                         "The helper is telling seeker what to do or giving direct advice “you should”.", 
                         "The helper is imposing beliefs or personal values on the seeker."]]
                    
-                    count_required_feedback += 1
                     with st.container():
                         if "Questions" in bad_areas and "Suggestions" in bad_areas:
                             st.markdown(f"#### **Skill areas that need improvement: :red[Questions] and :red[Suggestions]**")
@@ -253,7 +252,7 @@ if __name__ == "__main__":
                             count_required_feedback += 1
                             slider_key = f"subskill_{j}_{example_ind}"
                             st.write(f"**{j+1}. {option}**")
-                            default_value = " " if subskills else "None"
+                            # default_value = " " if subskills else "None"
                             selection = survey.select_slider(" ", options=["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"], kwargs = (slider_key), key= slider_key)
                             if slider_key in st.session_state and st.session_state[slider_key] != "None":
                                 count_done_feedback += 1
