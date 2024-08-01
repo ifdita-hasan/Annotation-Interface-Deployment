@@ -203,9 +203,8 @@ if __name__ == "__main__":
                 st.subheader(f"Case {example_ind + 1} of {len(global_dict['testcases'])}")
                 st.markdown(f"""Instructions: Below is a :blue[conversation context] for psychotherapy conversation {c_index}. 
                                 The helper response in red has been identified as a flawed response. 
-                                You are also given a better response and feedback. 
-                                Your task is to read through the conversation, :green[Better response] and 
-                                :green[Goal] to identify the areas in the :red[flawed response] that need improvement.""")
+                                You are also given a better response and feedback. We provide you what skill requires improvement.
+                                Your task is to read through the conversation to identify the subareas of the skill that need improvement in the :red[flawed response].""")
                 st.markdown(f"""Disclaimer: The conversations might contain grammatical or structural errors. Please ignore them when annotating.""")
 
                 conv = testcase["input"]
@@ -215,16 +214,16 @@ if __name__ == "__main__":
                 for i in range(len(conv) - 1):
                     st.markdown(f':blue[{conv[i]}]')
                 st.markdown(f':red[{conv[-1]}]')
-                st.subheader("Better Response")
-                st.write(f":green[Better Response: {better_response}]")
+                # st.subheader("Better Response")
+                # st.write(f":green[Better Response: {better_response}]")
                         
             with c2.container(height=1000):
                 feedback = testcase["response"]["feedback"]
                 with st.container():
-                    st.header("Bad Areas Annotation")
-                    st.markdown(f':green[**GOAL: {feedback}**]')
-                    st.markdown(f"""Based on the goal above, select below which areas in the helper response need improvement and select the subareas accordingly""")
-                    main_options = ["None", "Questions", "Suggestions"]
+                    st.header("Evaluate Helper Response")
+                    # st.markdown(f':green[**GOAL: {feedback}**]')
+                    st.markdown(f"""Questions below assess the different aspects of the flawed response""")
+                    bad_areas = testcase['response']['badareas']
                     subskill_options = [["The helper is asking questions that are too focused with closed-questions instead of exploring with open-ended questions.", 
                         "The helper is exploring the details of the seeker's situation.", 
                         "The helper is asking questions with a clear intention/goal.", 
@@ -238,33 +237,28 @@ if __name__ == "__main__":
                         "The helper is giving too much premature advice, answers, or solutions. This could be giving suggestions without first understanding the situation to know if it is applicable.", 
                         "The helper is telling seeker what to do or giving direct advice “you should”.", 
                         "The helper is imposing beliefs or personal values on the seeker."]]
-                    select_key = f"skill{example_ind}"
+                   
                     count_required_feedback += 1
-                    selected_main_option = st.multiselect("Choose a main category", options = main_options, kwargs = (select_key), key= select_key)
-                    if select_key in st.session_state and st.session_state[select_key] != "None":
-                        count_done_feedback += 1
-                    if "None" not in selected_main_option:
-                        with st.container():
-                            if "Questions" in selected_main_option and "Suggestions" in selected_main_option:
-                                subskills = subskill_options[0] + subskill_options[1]
-                            elif "Questions" in selected_main_option and "Suggestions" not in selected_main_option:
-                                subskills = subskill_options[0]
-                            elif "Suggestions" in selected_main_option and "Questions" not in selected_main_option:
-                                subskills = subskill_options[1]
-                            else: 
-                                subskills = []
-                            for j, option in enumerate(subskills):
-                                count_required_feedback += 1
-                                slider_key = f"subskill_{j}_{example_ind}"
-                                st.write(f"**{j+1}. {option}**")
-                                default_value = " " if subskills else "None"
-                                selection = survey.select_slider(" ", options=["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"], kwargs = (slider_key), key= slider_key)
-                                if slider_key in st.session_state and st.session_state[slider_key] != "None":
-                                    count_done_feedback += 1
-                        st.checkbox('I have finished annotating', key=f"finished_{example_ind}", on_change=update_global_dict, args=[[f"finished_{example_ind}"]])
-                    else:
-                        with st.container():
-                            st.write("Please select a main category to see the subskills.")
+                    with st.container():
+                        if "Questions" in bad_areas and "Suggestions" in bad_areas:
+                            st.markdown(f"#### **Skill areas that need improvement: :red[Questions] and :red[Suggestions]**")
+                            subskills = subskill_options[0] + subskill_options[1]
+                        elif "Questions" in bad_areas and "Suggestions" not in bad_areas:
+                            st.markdown(f"#### **Skill area that need improvement: :red[Questions]**")
+                            subskills = subskill_options[0]
+                        elif "Suggestions" in bad_areas and "Questions" not in bad_areas:
+                            st.markdown(f"#### **Skill area that need improvement: :red[Suggestions]**")
+                            subskills = subskill_options[1]
+                        for j, option in enumerate(subskills):
+                            count_required_feedback += 1
+                            slider_key = f"subskill_{j}_{example_ind}"
+                            st.write(f"**{j+1}. {option}**")
+                            default_value = " " if subskills else "None"
+                            selection = survey.select_slider(" ", options=["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"], kwargs = (slider_key), key= slider_key)
+                            if slider_key in st.session_state and st.session_state[slider_key] != "None":
+                                count_done_feedback += 1
+                    st.checkbox('I have finished annotating', key=f"finished_{example_ind}", on_change=update_global_dict, args=[[f"finished_{example_ind}"]])
+                
 
                 if f"finished_{example_ind}" in st.session_state and st.session_state[f"finished_{example_ind}"]:
                     if count_done_feedback != count_required_feedback:
