@@ -214,8 +214,8 @@ if __name__ == "__main__":
                 for i in range(len(conv) - 1):
                     st.markdown(f':blue[{conv[i]}]')
                 st.markdown(f':red[{conv[-1]}]')
-                st.subheader("Feedback")
-                st.markdown(f':green[{feedback}]')
+                # st.subheader("Feedback")
+                # st.markdown(f':green[{feedback}]')
                         
             with c2.container(height=1000):
                 with st.container():
