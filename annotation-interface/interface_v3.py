@@ -45,7 +45,7 @@ def update_global_dict(keys, dump = False):
         if save_on_cloud:
             client = get_gc_client()
             bucket = client.get_bucket(BUCKET_NAME)
-            if storage.Blob(bucket=bucket, name=f"data/state_eval_g1_{st.session_state['pid']}.json").exists(client):
+            if storage.Blob(bucket=bucket, name=f"data/state_eval_{st.session_state['pid']}.json").exists(client):
                 return
         else:
             if os.path.exists(f"data/state_eval_{st.session_state['pid']}.json"):
