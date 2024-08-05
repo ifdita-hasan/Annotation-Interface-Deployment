@@ -38,23 +38,23 @@ def update_global_dict(keys, dump = False):
 
     if "logged_in" in st.session_state and st.session_state["logged_in"]:
         if save_on_cloud:
-            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['logged_in']}.json", global_dict)
+            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['logged_in']}.json", global_dict)
         else:
-            json.dump(global_dict, open(f"data/state_eval_{st.session_state['logged_in']}.json", 'w'))
+            json.dump(global_dict, open(f"data/state_eval_g1_{st.session_state['logged_in']}.json", 'w'))
     elif "pid" in st.session_state and st.session_state["pid"]:
         if save_on_cloud:
             client = get_gc_client()
             bucket = client.get_bucket(BUCKET_NAME)
-            if storage.Blob(bucket=bucket, name=f"data/state_eval_{st.session_state['pid']}.json").exists(client):
+            if storage.Blob(bucket=bucket, name=f"data/state_eval_g1_{st.session_state['pid']}.json").exists(client):
                 return
         else:
-            if os.path.exists(f"data/state_eval_{st.session_state['pid']}.json"):
+            if os.path.exists(f"data/state_eval_g1_{st.session_state['pid']}.json"):
                 # load
                 return
         if save_on_cloud:
-            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['pid']}.json", global_dict)
+            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['pid']}.json", global_dict)
         else:
-            json.dump(global_dict, open(f"data/state_eval_{st.session_state['pid']}.json", 'w'))
+            json.dump(global_dict, open(f"data/state_eval_g1_{st.session_state['pid']}.json", 'w'))
     else:
         if save_on_cloud:
             save_dict_to_gcs(BUCKET_NAME, f"data/state_eval.json", global_dict)
@@ -71,9 +71,9 @@ def example_finished_callback():
 
     if "logged_in" in st.session_state and st.session_state["logged_in"]:
         if save_on_cloud:
-            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['logged_in']}.json", global_dict) 
+            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['logged_in']}.json", global_dict) 
         else:
-            json.dump(dict(global_dict), open(f"data/state_eval_{st.session_state['logged_in']}.json", 'w'))
+            json.dump(dict(global_dict), open(f"data/state_eval_g1_{st.session_state['logged_in']}.json", 'w'))
     else:
         if save_on_cloud:
             save_dict_to_gcs(BUCKET_NAME, f"data/state_eval.json", global_dict)
@@ -132,14 +132,14 @@ if __name__ == "__main__":
     if "reload" not in st.session_state or st.session_state["reload"]:
         if "logged_in" in st.session_state and st.session_state["logged_in"]:
             if save_on_cloud:
-                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['logged_in']}.json")
+                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['logged_in']}.json")
             else:
-                global_dict = json.load(open(f"data/state_eval_{st.session_state['logged_in']}.json", 'r'))
+                global_dict = json.load(open(f"data/state_eval_g1_{st.session_state['logged_in']}.json", 'r'))
         elif "pid" in st.session_state and st.session_state["pid"]:
             if save_on_cloud:
-                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['pid']}.json")
+                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['pid']}.json")
             else:
-                global_dict = json.load(open(f"data/state_eval_{st.session_state['pid']}.json", 'r'))
+                global_dict = json.load(open(f"data/state_eval_g1_{st.session_state['pid']}.json", 'r'))
         else:
             if save_on_cloud:
                 global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval.json")
@@ -214,14 +214,12 @@ if __name__ == "__main__":
                 for i in range(len(conv) - 1):
                     st.markdown(f':blue[{conv[i]}]')
                 st.markdown(f':red[{conv[-1]}]')
-                # st.subheader("Better Response")
-                # st.write(f":green[Better Response: {better_response}]")
+                # st.subheader("Feedback")
+                # st.markdown(f':green[{feedback}]')
                         
             with c2.container(height=1000):
-                feedback = testcase["response"]["feedback"]
                 with st.container():
                     st.header("Evaluate Helper Response")
-                    # st.markdown(f':green[**GOAL: {feedback}**]')
                     st.markdown(f"""Questions below assess the different aspects of the flawed response""")
                     bad_areas = testcase['response']['badareas']
                     subskill_options = [["The helper is asking questions that are too focused with closed-questions instead of exploring with open-ended questions.", 
