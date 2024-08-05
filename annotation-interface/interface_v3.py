@@ -38,28 +38,28 @@ def update_global_dict(keys, dump = False):
 
     if "logged_in" in st.session_state and st.session_state["logged_in"]:
         if save_on_cloud:
-            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['logged_in']}.json", global_dict)
+            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['logged_in']}.json", global_dict)
         else:
-            json.dump(global_dict, open(f"data/state_eval_{st.session_state['logged_in']}.json", 'w'))
+            json.dump(global_dict, open(f"data/state_eval_g1_{st.session_state['logged_in']}.json", 'w'))
     elif "pid" in st.session_state and st.session_state["pid"]:
         if save_on_cloud:
             client = get_gc_client()
             bucket = client.get_bucket(BUCKET_NAME)
-            if storage.Blob(bucket=bucket, name=f"data/state_eval_{st.session_state['pid']}.json").exists(client):
+            if storage.Blob(bucket=bucket, name=f"data/state_eval_g1_{st.session_state['pid']}.json").exists(client):
                 return
         else:
-            if os.path.exists(f"data/state_eval_{st.session_state['pid']}.json"):
+            if os.path.exists(f"data/state_eval_g1_{st.session_state['pid']}.json"):
                 # load
                 return
         if save_on_cloud:
-            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['pid']}.json", global_dict)
+            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['pid']}.json", global_dict)
         else:
-            json.dump(global_dict, open(f"data/state_eval_{st.session_state['pid']}.json", 'w'))
+            json.dump(global_dict, open(f"data/state_eval_g1_{st.session_state['pid']}.json", 'w'))
     else:
         if save_on_cloud:
-            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval.json", global_dict)
+            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_g1.json", global_dict)
         else:
-            json.dump(global_dict, open(f'data/state_eval.json', 'w'))
+            json.dump(global_dict, open(f'data/state_eval_g1.json', 'w'))
 
 def select_main_option():
     st.session_state.selected_main_option = st.session_state.main_option
@@ -76,9 +76,9 @@ def example_finished_callback():
             json.dump(dict(global_dict), open(f"data/state_eval_{st.session_state['logged_in']}.json", 'w'))
     else:
         if save_on_cloud:
-            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval.json", global_dict)
+            save_dict_to_gcs(BUCKET_NAME, f"data/state_eval_g1.json", global_dict)
         else:
-            json.dump(dict(global_dict), open(f'data/state_eval.json', 'w'))
+            json.dump(dict(global_dict), open(f'data/state_eval_g1.json', 'w'))
     st.session_state["reload"] = True
     js = '''
     <script>
@@ -132,19 +132,19 @@ if __name__ == "__main__":
     if "reload" not in st.session_state or st.session_state["reload"]:
         if "logged_in" in st.session_state and st.session_state["logged_in"]:
             if save_on_cloud:
-                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['logged_in']}.json")
+                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['logged_in']}.json")
             else:
-                global_dict = json.load(open(f"data/state_eval_{st.session_state['logged_in']}.json", 'r'))
+                global_dict = json.load(open(f"data/state_eval_g1_{st.session_state['logged_in']}.json", 'r'))
         elif "pid" in st.session_state and st.session_state["pid"]:
             if save_on_cloud:
-                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_{st.session_state['pid']}.json")
+                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_g1_{st.session_state['pid']}.json")
             else:
-                global_dict = json.load(open(f"data/state_eval_{st.session_state['pid']}.json", 'r'))
+                global_dict = json.load(open(f"data/state_eval_g1_{st.session_state['pid']}.json", 'r'))
         else:
             if save_on_cloud:
-                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval.json")
+                global_dict = read_or_create_json_from_gcs(BUCKET_NAME, f"data/state_eval_g1.json")
             else:
-                global_dict = json.load(open(f'data/state_eval.json', 'r'))
+                global_dict = json.load(open(f'data/state_eval_g1.json', 'r'))
         st.session_state["reload"] = False
         st.session_state["testcases"] = global_dict["testcases"]
         st.session_state["current_example_ind"] = global_dict["current_example_ind"]
