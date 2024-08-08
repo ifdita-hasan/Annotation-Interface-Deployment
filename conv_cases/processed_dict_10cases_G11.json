@@ -1,0 +1,285 @@
+[
+    {
+        "conv_index": 26,
+        "helper_index": 4,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I need support to feel ok during the pandemic",
+            "Helper: Hello.",
+            "Seeker: HI there",
+            "Helper: What type of things are you worried about during the pandemic?",
+            "Seeker: That I may not find a job soon which is making me depressed",
+            "Helper: So just to make sure I understand, you are anxious about possibly loosing your job due to the pandemic",
+            "Seeker: I am not working at the moment, I am looking for a job but it has been really difficult to find one",
+            "Helper: Have you looked into a hiring agency? They are great at helping find people jobs, especially in these hard times.",
+            "Seeker: I have but seems like there are no entry level jobs currently and also some employers have ceased hiring",
+            "Helper: After interviews have you been following up to show interest again in the job?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to create a supportive atmosphere, showing understanding and empathy to the seeker's situation. It would be better to refrain from asking questions that may come off as blaming the seeker.",
+            "badareas": [
+                "Questions",
+                "Empathy"
+            ],
+            "alternative": "It sounds like you're really putting in the effort and doing everything you can. How is this situation affecting you emotionally?"
+        }
+    },
+    {
+        "conv_index": 26,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I need support to feel ok during the pandemic",
+            "Helper: Hello.",
+            "Seeker: HI there",
+            "Helper: What type of things are you worried about during the pandemic?",
+            "Seeker: That I may not find a job soon which is making me depressed",
+            "Helper: So just to make sure I understand, you are anxious about possibly loosing your job due to the pandemic",
+            "Seeker: I am not working at the moment, I am looking for a job but it has been really difficult to find one",
+            "Helper: Have you looked into a hiring agency? They are great at helping find people jobs, especially in these hard times.",
+            "Seeker: I have but seems like there are no entry level jobs currently and also some employers have ceased hiring",
+            "Helper: After interviews have you been following up to show interest again in the job?",
+            "Seeker: Yes I have emailed every employer where I was interviewed. Also I follow up with every hiring agency I have signed up to.",
+            "Helper: Have you networked with any previous co-workers? They might be able to help you find something as well,"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to empathize with the seeker's frustration and stress before offering any solutions. It might be better to first validate the seeker's feelings and then explore more about the situation.",
+            "badareas": [
+                "Suggestions",
+                "Validation",
+                "Empathy"
+            ],
+            "alternative": "I hear you, it sounds like you're doing everything in your power to find a new job and the situation is still quite challenging. It must be very stressful. What other avenues have you explored in your job search?"
+        }
+    },
+    {
+        "conv_index": 26,
+        "helper_index": 7,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I need support to feel ok during the pandemic",
+            "Helper: Hello.",
+            "Seeker: HI there",
+            "Helper: What type of things are you worried about during the pandemic?",
+            "Seeker: That I may not find a job soon which is making me depressed",
+            "Helper: So just to make sure I understand, you are anxious about possibly loosing your job due to the pandemic",
+            "Seeker: I am not working at the moment, I am looking for a job but it has been really difficult to find one",
+            "Helper: Have you looked into a hiring agency? They are great at helping find people jobs, especially in these hard times.",
+            "Seeker: I have but seems like there are no entry level jobs currently and also some employers have ceased hiring",
+            "Helper: After interviews have you been following up to show interest again in the job?",
+            "Seeker: Yes I have emailed every employer where I was interviewed. Also I follow up with every hiring agency I have signed up to.",
+            "Helper: Have you networked with any previous co-workers? They might be able to help you find something as well,",
+            "Seeker: They all suggest to wait for a few months till things are bit normal. They also advice to keep trying.",
+            "Helper: Just from chatting with you for a few I can tell this is making you very anxious/",
+            "Seeker: Yes it indeed is",
+            "Helper: I have also been worried recently about finding another job because of the pandemic, but I found that getting back into my hobbies has helped keep me distracted and get my mind off of it."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Self-disclosure"
+            ],
+            "feedback": "The goal is to offer support and suggest ways to cope with the stress without sounding like you're trivialising the seeker's issue. It might have been better to frame your own experience as a suggestion, rather than a direct comparison.",
+            "badareas": [
+                "Suggestions"
+            ],
+            "alternative": "I can relate to your situation as I've also been worried about finding a job. One thing that helped me was focusing on my hobbies. Perhaps doing something you enjoy could provide a temporary distraction from your worries."
+        }
+    },
+    {
+        "conv_index": 27,
+        "helper_index": 2,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Good evening :-) How are you tonight?",
+            "Seeker: I\u2019m ok. I\u2019m just calming down.",
+            "Helper: That's good that you're calming down but were you previously upset?",
+            "Seeker: I got into a major blowout with my parents.",
+            "Helper: That's really rough, I'm sorry to hear that."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to explore further about the conflict that the seeker has faced. It would be good to ask what happened that led to a major blowout.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "I'm sorry to hear that. Could you tell me more about what happened?"
+        }
+    },
+    {
+        "conv_index": 27,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Good evening :-) How are you tonight?",
+            "Seeker: I\u2019m ok. I\u2019m just calming down.",
+            "Helper: That's good that you're calming down but were you previously upset?",
+            "Seeker: I got into a major blowout with my parents.",
+            "Helper: That's really rough, I'm sorry to hear that.",
+            "Seeker: I\u2019m just so upset. They don\u2019t approve of my girlfriend.",
+            "Helper: And they would like you to break up with her?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to keep the focus on the seekers feelings. Instead of asking a question that is assuming, it would be better to explore how this might be affecting their relationships.",
+            "badareas": [
+                "Questions",
+                "Empathy",
+                "Validation"
+            ],
+            "alternative": "That's a difficult situation to be in. How does this affect your relationships?"
+        }
+    },
+    {
+        "conv_index": 27,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Good evening :-) How are you tonight?",
+            "Seeker: I\u2019m ok. I\u2019m just calming down.",
+            "Helper: That's good that you're calming down but were you previously upset?",
+            "Seeker: I got into a major blowout with my parents.",
+            "Helper: That's really rough, I'm sorry to hear that.",
+            "Seeker: I\u2019m just so upset. They don\u2019t approve of my girlfriend.",
+            "Helper: And they would like you to break up with her?",
+            "Seeker: Oh definitely.",
+            "Helper: It's complicated when parents want input into their child's relationships. That is really explosive stuff.",
+            "Seeker: I\u2019m not giving in. I really like her and she is soooo hot.",
+            "Helper: Are you going to have to be around your parents soon after this?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to explore the seeker's feelings about the situation with their parents and girlfriend, and to understand the impact on them. It might be better to ask how the situation is affecting the seeker, before jumping into future planning.",
+            "badareas": [
+                "Questions",
+                "Empathy"
+            ],
+            "alternative": "How does this situation make you feel about your relationship with your parents and your girlfriend?"
+        }
+    },
+    {
+        "conv_index": 27,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Good evening :-) How are you tonight?",
+            "Seeker: I\u2019m ok. I\u2019m just calming down.",
+            "Helper: That's good that you're calming down but were you previously upset?",
+            "Seeker: I got into a major blowout with my parents.",
+            "Helper: That's really rough, I'm sorry to hear that.",
+            "Seeker: I\u2019m just so upset. They don\u2019t approve of my girlfriend.",
+            "Helper: And they would like you to break up with her?",
+            "Seeker: Oh definitely.",
+            "Helper: It's complicated when parents want input into their child's relationships. That is really explosive stuff.",
+            "Seeker: I\u2019m not giving in. I really like her and she is soooo hot.",
+            "Helper: Are you going to have to be around your parents soon after this?",
+            "Seeker: Yes I will be. Just because she is black, they don\u2019t approve.",
+            "Helper: Oof, I see. I can understand you being upset by that, it's a silly reason to disapprove. Was the blowout in any way productive or just angry?",
+            "Seeker: Just angry. I\u2019m not sure what to do.",
+            "Helper: I don't know that this problem will be solved with one single choice or conversation. Do you live with your parents?",
+            "Seeker: I do not. I was thinking of having my girlfriend move in with me.",
+            "Helper: Ah, well then their opinion of your romantic relationships is 100% irrelevant."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to empathize with the seeker's situation, but it's important to respect the influence of their parents in their life. Saying that their opinion is '100% irrelevant' may come off as dismissive and hurtful. Instead, it might be better to ask how the seeker plans to handle the situation, and what they think the impact of their parents' disapproval will have on their relationship.",
+            "badareas": [
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "That's a big step! While you are independent, your parents' opinion might still impact you. How do you plan to handle this situation? What kind of effect do you think their disapproval might have on your relationship if your girlfriend moves in?"
+        }
+    },
+    {
+        "conv_index": 27,
+        "helper_index": 9,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Good evening :-) How are you tonight?",
+            "Seeker: I\u2019m ok. I\u2019m just calming down.",
+            "Helper: That's good that you're calming down but were you previously upset?",
+            "Seeker: I got into a major blowout with my parents.",
+            "Helper: That's really rough, I'm sorry to hear that.",
+            "Seeker: I\u2019m just so upset. They don\u2019t approve of my girlfriend.",
+            "Helper: And they would like you to break up with her?",
+            "Seeker: Oh definitely.",
+            "Helper: It's complicated when parents want input into their child's relationships. That is really explosive stuff.",
+            "Seeker: I\u2019m not giving in. I really like her and she is soooo hot.",
+            "Helper: Are you going to have to be around your parents soon after this?",
+            "Seeker: Yes I will be. Just because she is black, they don\u2019t approve.",
+            "Helper: Oof, I see. I can understand you being upset by that, it's a silly reason to disapprove. Was the blowout in any way productive or just angry?",
+            "Seeker: Just angry. I\u2019m not sure what to do.",
+            "Helper: I don't know that this problem will be solved with one single choice or conversation. Do you live with your parents?",
+            "Seeker: I do not. I was thinking of having my girlfriend move in with me.",
+            "Helper: Ah, well then their opinion of your romantic relationships is 100% irrelevant.",
+            "Seeker: I guess but I don\u2019t want to not have them in my life. But have I mentioned how hot my girlfriend is? Lol. So hot and dark. Yummy.",
+            "Helper: There's not an easy way to get people to let go of those kinds of beliefs. Yes, you did mention that, haha. Physical attraction is awesome but perhaps not the best basis to move someone in with you :-)"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Reflections"
+            ],
+            "feedback": "The goal is to provide support and explore how the decision about moving in with their girlfriend might impact the relationship with their parents. It would be better to ask more about how this decision might affect the relationship.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "Changing people's beliefs can indeed be difficult. What do you think this decision might do to your relationship with your parents?"
+        }
+    },
+    {
+        "conv_index": 28,
+        "helper_index": 0,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Hi",
+            "Helper: hello"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide structure and professionalism. It would be better to find out what brings the person to the conversation.",
+            "badareas": [
+                "Professionalism",
+                "Structure",
+                "Questions"
+            ],
+            "alternative": "Hello, how might I be able to help you today?"
+        }
+    },
+    {
+        "conv_index": 28,
+        "helper_index": 2,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Hi",
+            "Helper: hello",
+            "Seeker: I am unable to focus on my studies due to stress. I am afraid that I am gonna fail.",
+            "Helper: so you mean you are afraid you will fail because you are stressed out with your studies",
+            "Seeker: yes, due to stress and anxiety it is hard to concentrate.",
+            "Helper: that can be hard but you can do it. knowing that you are scared is enough motivation for you to push through"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to validate the seeker's feelings and help them explore ways of coping with stress. However, it might be more helpful to offer validation and empathic understanding of their situation before jumping into encouragement. Also, rather than assuming that fear is a motivating factor for the seeker, it would be better to ask them how they usually deal with stressful situations.",
+            "badareas": [
+                "Validation",
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "It sounds like the stress and anxiety are really overwhelming right now and making it hard for you to concentrate. It's completely normal to feel this way when facing such pressure. How have you handled similar situations in the past?"
+        }
+    }
+]

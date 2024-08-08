@@ -1,0 +1,251 @@
+[
+    {
+        "conv_index": 22,
+        "helper_index": 1,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hey there! How are you feeling today?",
+            "Seeker: Not so well",
+            "Helper: Is something troubling you?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to explore the seeker's situation and feelings in a gentle, empathetic way. The current question is a little too direct and not open-ended.",
+            "badareas": [
+                "Questions",
+                "Empathy"
+            ],
+            "alternative": "I'm sorry to hear that, can you explain what's troubling you?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 2,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hey there! How are you feeling today?",
+            "Seeker: Not so well",
+            "Helper: Is something troubling you?",
+            "Seeker: im very sad about my situation",
+            "Helper: I'm sorry to hear that. I know how bad it can feel when life throws you a curve-ball. Can you tell me about your situation?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to express empathy and invite the seeker to share more about their situation. It would be better to encourage the seeker to talk about the situation that is making them sad.",
+            "badareas": [
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "I'm really sorry to hear that you're feeling this way. Can you tell me more about the situation that is making you sad?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hey there! How are you feeling today?",
+            "Seeker: Not so well",
+            "Helper: Is something troubling you?",
+            "Seeker: im very sad about my situation",
+            "Helper: I'm sorry to hear that. I know how bad it can feel when life throws you a curve-ball. Can you tell me about your situation?",
+            "Seeker: my girlfriend was break up with me two days ago",
+            "Helper: Oh dear. That is a very upsetting situation. It sounds like you might be feeling lonely and rejected as a result of your girlfriend breaking up with you. Is that right?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy",
+                "Reflections"
+            ],
+            "feedback": "The goal is to assist the seeker in exploring their feelings about the break up. It would be better to avoid making assumptions about what they might be feeling and ask them to identify their feelings.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "That is an upsetting situation. You mentioned feeling sad, can you tell me what other feelings might be coming up for you since the break up?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: im very sad about my situation",
+            "Helper: I'm sorry to hear that. I know how bad it can feel when life throws you a curve-ball. Can you tell me about your situation?",
+            "Seeker: my girlfriend was break up with me two days ago",
+            "Helper: Oh dear. That is a very upsetting situation. It sounds like you might be feeling lonely and rejected as a result of your girlfriend breaking up with you. Is that right?",
+            "Seeker: yeah! we were in a relationship for three years, and suddenly she broke up with me",
+            "Helper: That's a long time. I was in a similar situation not too long ago and I understand how hard this must be for you.",
+            "Seeker: I taught that she was my everything hereafter. but the fate plays a great game upon me",
+            "Helper: During a time like this, some people find it helpful to keep busy doing some kind of activity to take their mind off of their pain. Is there something you can do to take your mind off of it until you're ready to manage your feelings?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide emotional validation and empathetic responses. It might be more effective to validate the seeker's feelings about the breakup and their current situation rather than jumping to a suggestion. The helper could reserve suggestions until later in the conversation when the seeker might be more receptive and open to them.",
+            "badareas": [
+                "Suggestions",
+                "Validation"
+            ],
+            "alternative": "I sense that you are feeling very overwhelmed by this sudden change. It's completely normal to feel this way after a breakup, especially one that came unexpectedly. Can you share more about why this feels like fate playing a cruel game on you?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 6,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: im very sad about my situation",
+            "Helper: I'm sorry to hear that. I know how bad it can feel when life throws you a curve-ball. Can you tell me about your situation?",
+            "Seeker: my girlfriend was break up with me two days ago",
+            "Helper: Oh dear. That is a very upsetting situation. It sounds like you might be feeling lonely and rejected as a result of your girlfriend breaking up with you. Is that right?",
+            "Seeker: yeah! we were in a relationship for three years, and suddenly she broke up with me",
+            "Helper: That's a long time. I was in a similar situation not too long ago and I understand how hard this must be for you.",
+            "Seeker: I taught that she was my everything hereafter. but the fate plays a great game upon me",
+            "Helper: During a time like this, some people find it helpful to keep busy doing some kind of activity to take their mind off of their pain. Is there something you can do to take your mind off of it until you're ready to manage your feelings?",
+            "Seeker: I have some activities to do so, but i cannot able to concentrate on what i am doing",
+            "Helper: Okay, that's very understandable. I'm sure there's another strategy we can come up with. Do you have a friend or family member you can talk about your feelings with?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to explore the seeker's support network and their willingness to share their feelings with them. It would be better to ask more open-ended questions about their support network.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "It's understandable that you're having trouble concentrating right now. Do you have any close friends or family members who you feel comfortable talking to about this?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: During a time like this, some people find it helpful to keep busy doing some kind of activity to take their mind off of their pain. Is there something you can do to take your mind off of it until you're ready to manage your feelings?",
+            "Seeker: I have some activities to do so, but i cannot able to concentrate on what i am doing",
+            "Helper: Okay, that's very understandable. I'm sure there's another strategy we can come up with. Do you have a friend or family member you can talk about your feelings with?",
+            "Seeker: yeah! i have few friends",
+            "Helper: That's great. You've already taken a huge step by reaching out for help and that's a big deal! A good next step might be letting the people around you know that you need some support at this time. Sometimes people don't know something until you tell them, even if it seems obvious. Is that something you can do?",
+            "Seeker: But i can't tell this to them because they also become sad when they know about this",
+            "Helper: Okay, I understand. Do you feel embarrassed because this is happening to you?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to understand the seeker's reluctance to share their situation with their friends. It might be better not to assume they feel embarrassed, but to ask more open-ended questions about why they are reluctant to share.",
+            "badareas": [
+                "Questions",
+                "Reflections"
+            ],
+            "alternative": "I understand it's difficult for you. Could you tell me more about why you feel you can't share this with your friends?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 9,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: During a time like this, some people find it helpful to keep busy doing some kind of activity to take their mind off of their pain. Is there something you can do to take your mind off of it until you're ready to manage your feelings?",
+            "Seeker: I have some activities to do so, but i cannot able to concentrate on what i am doing",
+            "Helper: Okay, that's very understandable. I'm sure there's another strategy we can come up with. Do you have a friend or family member you can talk about your feelings with?",
+            "Seeker: yeah! i have few friends",
+            "Helper: That's great. You've already taken a huge step by reaching out for help and that's a big deal! A good next step might be letting the people around you know that you need some support at this time. Sometimes people don't know something until you tell them, even if it seems obvious. Is that something you can do?",
+            "Seeker: But i can't tell this to them because they also become sad when they know about this",
+            "Helper: Okay, I understand. Do you feel embarrassed because this is happening to you?",
+            "Seeker: yes i am. and i don't know how to overcome from this kind of sadness",
+            "Helper: I understand that your feelings of sadness run very deep. Do you have people in your life who you can safely spend time with without necessarily talking about your feelings? Feeling connected to people can help quite a lot."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to help the seeker identify ways they can manage their sadness. Instead of suggesting solutions, it would be more effective to ask the seeker what they usually do when they are sad. This can give the helper a better understanding of the seeker's coping strategies.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "I see. It's really tough when you're feeling this way. Can you share what you usually do to calm yourself when you're feeling sad?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 11,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: That's great. You've already taken a huge step by reaching out for help and that's a big deal! A good next step might be letting the people around you know that you need some support at this time. Sometimes people don't know something until you tell them, even if it seems obvious. Is that something you can do?",
+            "Seeker: But i can't tell this to them because they also become sad when they know about this",
+            "Helper: Okay, I understand. Do you feel embarrassed because this is happening to you?",
+            "Seeker: yes i am. and i don't know how to overcome from this kind of sadness",
+            "Helper: I understand that your feelings of sadness run very deep. Do you have people in your life who you can safely spend time with without necessarily talking about your feelings? Feeling connected to people can help quite a lot.",
+            "Seeker: yes i have someone. who is my well wisher",
+            "Helper: It's great that you have someone who can give you positivity and support. Do you feel comfortable with trying that or would you like to explore other options?",
+            "Seeker: but, what can i do with them in this situation. do you have any idea?",
+            "Helper: It might be helpful to simply spend some time together. Connecting with someone who cares about you can help reassure your positive feelings in yourself."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to suggest ways the seeker can manage their sadness. However, it would be better to first ask the seeker what activities they enjoy doing and then suggest they do these activities with their well-wisher.",
+            "badareas": [
+                "Suggestions"
+            ],
+            "alternative": "Activities that you enjoy can help distract from the sadness. What activities do you enjoy? Could you consider doing these activities with your well-wisher?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 12,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: yes i have someone. who is my well wisher",
+            "Helper: It's great that you have someone who can give you positivity and support. Do you feel comfortable with trying that or would you like to explore other options?",
+            "Seeker: but, what can i do with them in this situation. do you have any idea?",
+            "Helper: It might be helpful to simply spend some time together. Connecting with someone who cares about you can help reassure your positive feelings in yourself.",
+            "Seeker: ohhh...I understand",
+            "Helper: If you feel able to, something outdoors might be good. Fresh air and physical activity can help lower anxiety and doing a mutual activity can help strengthen bonds between people."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to have the seeker identify some activities and coping skills they can use to help with the sadness. It would be better to avoid making suggestions and ask the seeker to collaborate together for ideas.",
+            "badareas": [
+                "Suggestions",
+                "Questions"
+            ],
+            "alternative": "Let's think of some activities that you might like to try either alone or with your well wisher. What are some things you enjoy doing?"
+        }
+    },
+    {
+        "conv_index": 22,
+        "helper_index": 13,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: yes i have someone. who is my well wisher",
+            "Helper: It's great that you have someone who can give you positivity and support. Do you feel comfortable with trying that or would you like to explore other options?",
+            "Seeker: but, what can i do with them in this situation. do you have any idea?",
+            "Helper: It might be helpful to simply spend some time together. Connecting with someone who cares about you can help reassure your positive feelings in yourself.",
+            "Seeker: ohhh...I understand",
+            "Helper: If you feel able to, something outdoors might be good. Fresh air and physical activity can help lower anxiety and doing a mutual activity can help strengthen bonds between people.",
+            "Seeker: shall i try gym workouts? is that work for me to overcome?",
+            "Helper: Yes, that's a great idea! It sounds like you're already better at this than you think."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Validation"
+            ],
+            "feedback": "The goal is to encourage the seeker in their decision while also providing some guidance. It would be great to ask more about what they enjoy about gym workouts and how they see it helping them.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "That's a fantastic idea! Gym workouts not only improve your physical health but can also help boost your mood and reduce stress. Is there a particular workout routine you enjoy doing? And how do you see it helping you in this situation?"
+        }
+    }
+]
