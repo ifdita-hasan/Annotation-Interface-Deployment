@@ -248,7 +248,7 @@ if __name__ == "__main__":
                             subskills = subskill_options[1]
                         for j, option in enumerate(subskills):
                             count_required_feedback += 1
-                            slider_key = f"subskill_{j}_{example_ind}"
+                            slider_key = f"conv_{example_ind}_subskill_{j}"
                             st.write(f"**{j+1}. {option}**")
                             # default_value = " " if subskills else "None"
                             selection = survey.select_slider(" ", options=["Strongly Disagree", "Disagree", "Neutral", "Agree", "Strongly Agree"], kwargs = (slider_key), key= slider_key)
