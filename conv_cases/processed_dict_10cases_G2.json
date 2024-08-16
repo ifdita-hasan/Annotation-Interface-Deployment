@@ -1,0 +1,225 @@
+[
+    {
+        "conv_index": 10,
+        "helper_index": 1,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Hello?",
+            "Helper: Hello!. How are you doing tonight?",
+            "Seeker: I'm doing alright. How about you?",
+            "Helper: You are doing well? That is great to hear. I am the support provider, do you have any questions or problems?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to make the seeker feel understood and supported. It might be better not to assume that the seeker is doing well based on a general statement. In addition, rather than asking if the seeker has any questions or problems, it would be more effective to empathetically ask the seeker to share more about their feelings or experiences.",
+            "badareas": [
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "It's good to know you're alright. Could you maybe share more about what you're currently experiencing or feeling?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 2,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I'm doing alright. How about you?",
+            "Helper: You are doing well? That is great to hear. I am the support provider, do you have any questions or problems?",
+            "Seeker: I've just been feeling a little down about the breakup, even though it was like 4 years ago",
+            "Helper: So it was almost four years ago, but you still feel depressed when you think about it?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to explore the seeker's feelings about their past breakup more deeply. Instead of assuming the seeker feels depressed, it would be good to ask the seeker to elaborate more on their feelings related to the breakup.",
+            "badareas": [
+                "Reflections",
+                "Questions"
+            ],
+            "alternative": "Seems like you're still impacted by the breakup even after 4 years. Could you tell me more about the feelings that resurface when you think about it?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: That must be difficult for you, to still feel that way.",
+            "Seeker: Initially, I was sad about being heart broken, but later I became more concerned about why I had a strange complex I never even knew I had. Which I never discovered until recently",
+            "Helper: Being upset and heartbroken is very understandable, but what do you mean by a strange complex?",
+            "Seeker: When I first met my partner, she was at a low point in her life",
+            "Helper: So you really feel she was depressed or upset when you met her?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to understand more about what the seeker is experiencing. It could be helpful to ask more exploratory questions about what the seeker means by their partner being at a low point, rather than making an assumption.",
+            "badareas": [
+                "Reflections",
+                "Questions"
+            ],
+            "alternative": "You mentioned that she was at a low point when you met her. Could you share more about what that was like for both of you?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Did her being depressed have an effect on you?",
+            "Seeker: Naturally, I wanted to help her, even though I felt somewhat uncomfortable at first",
+            "Helper: of course you were sympathetic towards her pain, that is totally understandable.",
+            "Seeker: So I stuck with her and saw her become better. even made some friends along the way",
+            "Helper: That sounds great, that you were able to help her out in that way."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to understand the seeker's feelings better. Instead of making a positive comment about the situation, it would be useful to ask how the seeker felt about this development and if it had any impact on them.",
+            "badareas": [
+                "Questions",
+                "Empathy"
+            ],
+            "alternative": "Helper: It's wonderful that you were able to be there for her during a difficult time. How did helping her make you feel?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 9,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: So I stuck with her and saw her become better. even made some friends along the way",
+            "Helper: That sounds great, that you were able to help her out in that way.",
+            "Seeker: However, I suddenly started to feel a little depressed for some reason",
+            "Helper: So as she became better, you started to feel worse?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Reflections"
+            ],
+            "feedback": "The goal is to acknowledge the seeker's feelings and help them explore why they might be feeling this way. It might be better to express empathy and ask an open-ended question to facilitate exploration.",
+            "badareas": [
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "I'm sorry to hear that, it must be hard for you to feel this way. Can you tell me more about what made you start feeling like this?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 10,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: However, I suddenly started to feel a little depressed for some reason",
+            "Helper: So as she became better, you started to feel worse?",
+            "Seeker: I believe it's because I felt useless after that point",
+            "Helper: That's interesting, so you feel that you were together so long as you could help her, but then you lost interest in her?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to clarify the seeker's feelings and understand their perspective. It might be better to avoid assumptions and instead ask open-ended questions to explore their feelings further.",
+            "badareas": [
+                "Reflections",
+                "Questions"
+            ],
+            "alternative": "I see, it sounds like you started feeling a bit lost when she didn't need your help as much. Can you share more about your feelings?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 11,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: However, I suddenly started to feel a little depressed for some reason",
+            "Helper: So as she became better, you started to feel worse?",
+            "Seeker: I believe it's because I felt useless after that point",
+            "Helper: That's interesting, so you feel that you were together so long as you could help her, but then you lost interest in her?",
+            "Seeker: I didn't lose interest, it was just that I had this strange complex where I needed to feel needed",
+            "Helper: or did she reject you once she felt better?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to understand the seeker's feelings and their root cause. It would be better to ask an open-ended question to allow the seeker to express their feelings and experiences rather than making assumptions.",
+            "badareas": [
+                "Questions",
+                "Reflections"
+            ],
+            "alternative": "I see, you felt a need to be needed. Can you tell me more about this feeling? Did something particular happen that made you feel this way?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 13,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I believe it's because I felt useless after that point",
+            "Helper: That's interesting, so you feel that you were together so long as you could help her, but then you lost interest in her?",
+            "Seeker: I didn't lose interest, it was just that I had this strange complex where I needed to feel needed",
+            "Helper: or did she reject you once she felt better?",
+            "Seeker: She said that she was busy with other stuff",
+            "Helper: Has that happened to you in other relationships?",
+            "Seeker: Never been in another one. I've had crushes, but it never went past that for various reasons",
+            "Helper: So you have not had any successful relationships since then? Do you think that is why you feel depressed?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to guide the seeker to self-discover their feelings and not lead them to a conclusion. It would be good to not assume that the seeker's depression is from their lack of successful relationships.",
+            "badareas": [
+                "Questions",
+                "Reflections"
+            ],
+            "alternative": "You mentioned that you haven't been in another relationship since then. How does that make you feel?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 14,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: She said that she was busy with other stuff",
+            "Helper: Has that happened to you in other relationships?",
+            "Seeker: Never been in another one. I've had crushes, but it never went past that for various reasons",
+            "Helper: So you have not had any successful relationships since then? Do you think that is why you feel depressed?",
+            "Seeker: I don't think so. The thing is, I'm still friends with her",
+            "Helper: So that is good, that even after the end of your romantic relationship you were still able to maintain a friendship."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to validate the seeker's feelings and not assume what is good or bad for them. It would be better to ask how the seeker feels about maintaining the friendship after ending the romantic relationship.",
+            "badareas": [
+                "Validation",
+                "Questions"
+            ],
+            "alternative": "It seems like you were able to keep a friendship with her after the relationship ended. How does that make you feel?"
+        }
+    },
+    {
+        "conv_index": 10,
+        "helper_index": 15,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I don't think so. The thing is, I'm still friends with her",
+            "Helper: So that is good, that even after the end of your romantic relationship you were still able to maintain a friendship.",
+            "Seeker: It's rather awkward, tho. We don't even talk often",
+            "Helper: Have you thought about volunteering in a position where you could be helpful to others? So you feel that you are still friends even though you don't speak to each other often?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to empathize and explore the seeker's feelings and experiences. It might be better not to rush into making suggestions like volunteering when the seeker is expressing their feelings about their relationship. Additionally, it would be great to break down the response into two different responses to avoid confusion.",
+            "badareas": [
+                "Empathy",
+                "Structure",
+                "Suggestions"
+            ],
+            "alternative": "It sounds like your friendship has changed a bit. How does it feel to not talk as often as you used to?"
+        }
+    }
+]

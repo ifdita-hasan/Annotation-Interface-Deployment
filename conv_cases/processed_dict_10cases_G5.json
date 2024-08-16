@@ -1,0 +1,261 @@
+[
+    {
+        "conv_index": 15,
+        "helper_index": 4,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hi. How are you?",
+            "Seeker: Hi, I'm sad. How are you?",
+            "Helper: I am ok. Been a busy day. More importantly your upset; what is going on?",
+            "Seeker: Good for you. My friend died few years ago. And it's so difficult for me. She was close to me",
+            "Helper: You mentioned that she died a while back. Has something stirred up the sadness recently?",
+            "Seeker: because it's close to her death",
+            "Helper: Oh. The anniversary. You made it clear you were close to her. Tell me about her. What was she like? What did she mean to you?",
+            "Seeker: She was my good friend. Always take caring of me and I the same way. We lived close to each other so we always hang out",
+            "Helper: She gave you a lot of meaning and filled your time fondly. I am taking it that after she passed you probably felt empty and lately it has been getting worse?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to reflect back the seeker's feelings about their friend's death. However, the helper could have probed more into how the seeker is currently dealing with the grief instead of assuming that they are feeling 'worse'. It's important to avoid making assumptions about the seeker's feelings.",
+            "badareas": [
+                "Reflections",
+                "Questions"
+            ],
+            "alternative": "It's clear she had a deep impact on you and her absence is difficult. Can you tell me a bit more about how you're dealing with your grief recently?"
+        }
+    },
+    {
+        "conv_index": 15,
+        "helper_index": 7,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Good for you. My friend died few years ago. And it's so difficult for me. She was close to me",
+            "Helper: You mentioned that she died a while back. Has something stirred up the sadness recently?",
+            "Seeker: because it's close to her death",
+            "Helper: Oh. The anniversary. You made it clear you were close to her. Tell me about her. What was she like? What did she mean to you?",
+            "Seeker: She was my good friend. Always take caring of me and I the same way. We lived close to each other so we always hang out",
+            "Helper: She gave you a lot of meaning and filled your time fondly. I am taking it that after she passed you probably felt empty and lately it has been getting worse?",
+            "Seeker: Yes, it's true. It had happened with me. she was like my sister",
+            "Helper: I can understand that. My best friend died a few years ago and he was like my brother. Still does feel empty not having him around.",
+            "Seeker: Yes, one day she was there with me and the next day she wasn't. It's so hard for anyone. I know that time it's the only way to move on. however it's so difficult for me",
+            "Helper: I take it that the loss was sudden and it was a shock to your system. So how have you been managing the sadness and grief since it happened?",
+            "Seeker: I try going out with my family and friend. Avoiding things that we used to do together. trying little by little",
+            "Helper: It sounds like your family is being supportive of you and you have a network. It seems to me that you really put a great deal of mental energy and fortitude into taking care of yourself. Is there anything else that could help you get thru this rough patch you can think of?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Reflections",
+                "Empathy"
+            ],
+            "feedback": "The goal is to explore and identify the seeker's coping mechanism. The helper did well in identifying the seeker's existing support network. However, the question referring to suggestions could be more open-ended to encourage the seeker to think about their own coping strategies.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "It sounds like you're trying hard to take care of yourself and you have the support of your family. What other ways do you think you might be able to cope with your loss?"
+        }
+    },
+    {
+        "conv_index": 15,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Good for you. My friend died few years ago. And it's so difficult for me. She was close to me",
+            "Helper: You mentioned that she died a while back. Has something stirred up the sadness recently?",
+            "Seeker: because it's close to her death",
+            "Helper: Oh. The anniversary. You made it clear you were close to her. Tell me about her. What was she like? What did she mean to you?",
+            "Seeker: She was my good friend. Always take caring of me and I the same way. We lived close to each other so we always hang out",
+            "Helper: She gave you a lot of meaning and filled your time fondly. I am taking it that after she passed you probably felt empty and lately it has been getting worse?",
+            "Seeker: Yes, it's true. It had happened with me. she was like my sister",
+            "Helper: I can understand that. My best friend died a few years ago and he was like my brother. Still does feel empty not having him around.",
+            "Seeker: Yes, one day she was there with me and the next day she wasn't. It's so hard for anyone. I know that time it's the only way to move on. however it's so difficult for me",
+            "Helper: I take it that the loss was sudden and it was a shock to your system. So how have you been managing the sadness and grief since it happened?",
+            "Seeker: I try going out with my family and friend. Avoiding things that we used to do together. trying little by little",
+            "Helper: It sounds like your family is being supportive of you and you have a network. It seems to me that you really put a great deal of mental energy and fortitude into taking care of yourself. Is there anything else that could help you get thru this rough patch you can think of?",
+            "Seeker: I don't know. Do you hav e any ideas?",
+            "Helper: I can think of a few. Physical activity even walking really helps people who are feeling down. But it does not work for everyone. I also know there are grief support groups but I do not know if they are open with the pandemic and everything. I also know that there are a lot of mental health services available for professional counselling if things are too much. I also heard that having things to do to fill your schedule helps like work or small projects to fill the day up. What do you think would work best for you?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to offer constructive suggestions that the seeker can use. While the helper did well in giving a range of suggestions, they could have presented these suggestions one at a time to avoid overwhelming the seeker.",
+            "badareas": [
+                "Structure",
+                "Suggestions"
+            ],
+            "alternative": "One thing that often helps is physical activity, like going for a walk. Do you think you might find that helpful? Or if you prefer, we could discuss other options."
+        }
+    },
+    {
+        "conv_index": 16,
+        "helper_index": 2,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hi! how are you today?",
+            "Seeker: Hi ok I guess. Very worried",
+            "Helper: What are you worried about?",
+            "Seeker: I am being evicted. I am very scared I will not find a place to go in time",
+            "Helper: I am so sorry to hear that. When will that happen? You should start looking through places online, there are tons of sites online."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to empathize with the seeker's situation and explore more about it. It might be better to ask more open-ended questions about the situation before offering advice.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "I can imagine how tough this must be for you. Can you tell me a bit more about the situation? When will this happen? Have you started looking for a new place already?"
+        }
+    },
+    {
+        "conv_index": 16,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hi! how are you today?",
+            "Seeker: Hi ok I guess. Very worried",
+            "Helper: What are you worried about?",
+            "Seeker: I am being evicted. I am very scared I will not find a place to go in time",
+            "Helper: I am so sorry to hear that. When will that happen? You should start looking through places online, there are tons of sites online.",
+            "Seeker: December 31st the CDC moratorium ends alot of people will be homeless. Many are fake we are in a housing crisis",
+            "Helper: It's true, it's so horrible. I am so sorry to hear that. Have you tried reaching out to family?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to understand the seeker's feelings and validate them. The helper did well to express empathy, but it might be better to avoid jumping to suggestions and instead, focus more on understanding the seeker's situation.",
+            "badareas": [
+                "Suggestions",
+                "Validation"
+            ],
+            "alternative": "That sounds really tough. How are you handling this situation?"
+        }
+    },
+    {
+        "conv_index": 16,
+        "helper_index": 4,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hi! how are you today?",
+            "Seeker: Hi ok I guess. Very worried",
+            "Helper: What are you worried about?",
+            "Seeker: I am being evicted. I am very scared I will not find a place to go in time",
+            "Helper: I am so sorry to hear that. When will that happen? You should start looking through places online, there are tons of sites online.",
+            "Seeker: December 31st the CDC moratorium ends alot of people will be homeless. Many are fake we are in a housing crisis",
+            "Helper: It's true, it's so horrible. I am so sorry to hear that. Have you tried reaching out to family?",
+            "Seeker: Yes, I may be going to my brother's to wait out the pandemic. Hoping many people will speak up",
+            "Helper: I think so, it;s great that you have a brother. Family is so important right now to help all of us stay sane in this pandemic."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide support and comfort to the seeker. It could be improved by not imposing personal beliefs on the seeker, and instead acknowledging how the seeker feels about their relationship with their brother.",
+            "badareas": [
+                "Suggestions",
+                "Empathy"
+            ],
+            "alternative": "It's good that you have your brother to turn to during this time. How do you feel about possibly staying with him?"
+        }
+    },
+    {
+        "conv_index": 16,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hi! how are you today?",
+            "Seeker: Hi ok I guess. Very worried",
+            "Helper: What are you worried about?",
+            "Seeker: I am being evicted. I am very scared I will not find a place to go in time",
+            "Helper: I am so sorry to hear that. When will that happen? You should start looking through places online, there are tons of sites online.",
+            "Seeker: December 31st the CDC moratorium ends alot of people will be homeless. Many are fake we are in a housing crisis",
+            "Helper: It's true, it's so horrible. I am so sorry to hear that. Have you tried reaching out to family?",
+            "Seeker: Yes, I may be going to my brother's to wait out the pandemic. Hoping many people will speak up",
+            "Helper: I think so, it;s great that you have a brother. Family is so important right now to help all of us stay sane in this pandemic.",
+            "Seeker: We definitely should all pull together. I am also hoping to find some grassrooots charities for people like me without families",
+            "Helper: There are aa ton! If you search online or on social media. I've recently started to get involved with many of them. There are ones providing food, home goods, and even housing for people impacted by the pandemic."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide emotional support and comfort to the seeker. It might be better to avoid self-disclosure and focus more on the seeker's feelings and situation. A suggestion can be made, but it should be based on the seeker's context and not the helper's personal experience.",
+            "badareas": [
+                "Suggestions",
+                "Self-disclosure"
+            ],
+            "alternative": "That's a proactive approach! There are indeed many organizations out there that are helping out. Are there any specific types of resources or support that you're looking for?"
+        }
+    },
+    {
+        "conv_index": 16,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: That's so great! IT will make you feel good to be proactive and do something. You can also take this time to focus on hobbies and other things that you wnat.",
+            "Seeker: Agreed! Thanks for your support!",
+            "Helper: It was my pleasure.",
+            "Seeker: I am noy allowed to feel better for 3 more minutes so I guess I am still working on it. Where have you found your most useful resources?",
+            "Helper: No way! you should try to be poistiive. I\"ve found most of my useful resources by just googling and spending time looking through results. I also have surprisingly found a lot on social media - like twitter."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to acknowledge the seeker's feelings and offer supportive advice. It might be better to avoid being dismissive of the seeker's feelings. Additionally, providing specific resources or methods to find resources would be much more helpful.",
+            "badareas": [
+                "Validation",
+                "Suggestions"
+            ],
+            "alternative": "It's understandable that you feel this way. Sometimes, finding resources can be overwhelming. I've found that using search engines like Google and looking through social media can be helpful. You might even find useful resources on platforms like Twitter."
+        }
+    },
+    {
+        "conv_index": 17,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Well, although it sounds like a cliche, time does help with healing wounds. It took me a while to get over a break up. We had been together eight years!",
+            "Seeker: That must've been hard. Is it possible to heal without finding another?",
+            "Helper: Yes I think that it is but you really do need to be kind to yourself and give it time. Do you have good friends to support you?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to further understand the seeker's feelings and provide support. It would be more effective to ask more open-ended questions, encouraging the seeker to express their feelings more.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "Yes, healing is definitely possible even without a new partner. It's important to take care of yourself during this time. Can you tell me more about what you're doing to take care of yourself?"
+        }
+    },
+    {
+        "conv_index": 17,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Yes I think that it is but you really do need to be kind to yourself and give it time. Do you have good friends to support you?",
+            "Seeker: Many of my friends wouldn't understand as they are in long-term relationships. But yes, I've a few good friends.",
+            "Helper: That is a blessing at least though I know it can be hard to see people in happy relationships when you are single.",
+            "Seeker: What did you do to cope in the first year of losing your partner ?",
+            "Helper: I cried a lot to be honest, especially as he was happy with someone else. But I tried to focus on my work and my hobbies. It helped."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Self-disclosure"
+            ],
+            "feedback": "The goal is to provide guidance and support for the seeker. While self-disclosure can be beneficial, it's important to follow it up with questions or statements that bring the focus back to the seeker.",
+            "badareas": [
+                "Structure",
+                "Questions"
+            ],
+            "alternative": "Like many people, I also found it very difficult. I found that focusing on things I love, like my work and hobbies, helped me. What are some things you enjoy doing or would like to try?"
+        }
+    }
+]

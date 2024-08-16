@@ -1,0 +1,255 @@
+[
+    {
+        "conv_index": 19,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Not bad but I'm just getting fed up with work. working for a big corporate just bored me to tears. It's all I know and I feel trapped like I can't escape. I don't want this to be my life for ever!",
+            "Helper: What is it about your job that you don't like?",
+            "Seeker: I think it's all the politics of working in an office, the endless meetings and the people trying to get one over on each other. I find it draining.",
+            "Helper: Bleh, sorry to hear that. I think I understand what you're saying.",
+            "Seeker: Have you had a similar experience?",
+            "Helper: Perhaps it's like following through on your work goals is challenging enough, and then there's a bunch of unnecessary effort on top of it to work around the politics. Yeah, maybe I have. I guess I've been in situations when I was surprised and confused as to why a team couldn't just work together towards the common goal. Does that sound similar?",
+            "Seeker: It does indeed, actually it's like you work in my office. I'm just fearful that if I try something new I won't be able to support myself financially, do you know what I mean?",
+            "Helper: For sure. It's true that you don't *have* to work there, but I'm sure there are factors in play that make it difficult to leave. Here's a blunt question- what do you want to do about it? Do you think you want to get better at being happy in this job? Or work towards getting another job?",
+            "Seeker: That is a very good question. I hadn't thought about it like that. I think I want to try something new and you have helped me realise this. I don't think I actually want to be happier in my current position. The question is how should I approach it?",
+            "Helper: Small steps, I suppose. What do you think the very very first, small step would be?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to help the seeker come up with their own solution. It would be better to ask open-ended questions to encourage the seeker to think about possible steps they could take.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "It's great to hear you're considering trying something new. What are some steps you think you could take to explore this path further?"
+        }
+    },
+    {
+        "conv_index": 20,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I am okay, I am very worried about my friend. I believe she is abusing prescription drugs.",
+            "Helper: Oh no, why do you think she is abusing them?",
+            "Seeker: I don't think it, I guess I actually know she is. She use to have a heroin problem and went on methadone. She has since started taking anxiety medicine in order to get high.",
+            "Helper: Thats a tough spot to be in, ive actually been both sides of that coin.",
+            "Seeker: I think I know what I need to do, It is just hard.",
+            "Helper: It is hard. Unfortunately you can only try to direct them to stop for so long before it can really damage your own well being, which should come first."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to validate the seeker's feelings and concerns, but it seems the helper might be validating an action before the seeker has fully expressed their intentions. It would be better to first clarify what the seeker is considering doing.",
+            "badareas": [
+                "Validation",
+                "Questions"
+            ],
+            "alternative": "It definitely sounds like a challenging situation. Can you tell me more about what you're considering doing?"
+        }
+    },
+    {
+        "conv_index": 20,
+        "helper_index": 4,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I am okay, I am very worried about my friend. I believe she is abusing prescription drugs.",
+            "Helper: Oh no, why do you think she is abusing them?",
+            "Seeker: I don't think it, I guess I actually know she is. She use to have a heroin problem and went on methadone. She has since started taking anxiety medicine in order to get high.",
+            "Helper: Thats a tough spot to be in, ive actually been both sides of that coin.",
+            "Seeker: I think I know what I need to do, It is just hard.",
+            "Helper: It is hard. Unfortunately you can only try to direct them to stop for so long before it can really damage your own well being, which should come first.",
+            "Seeker: I agree, and after going through this in the past with her, I just can't sit and wait for the train crash. she feels like she is doing nothing wrong because she has valid prescriptions. I feel like I should just cut her off completely, I don't have time for her drama. What do you suggest?",
+            "Helper: I would actually suggest just that. If you have tried, or do not even feel like going down that path. Then that is your decision. You should look out for yourself!"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to help the seeker reach their own decision, rather than providing advice too soon. It might be better to reflect on what the seeker has said, and encourage them to explore their own thoughts and feelings without overtly giving advice.",
+            "badareas": [
+                "Suggestions",
+                "Questions"
+            ],
+            "alternative": "It sounds like you've given this a lot of thought and you're leaning towards protecting your own wellbeing. How does it feel thinking about that choice?"
+        }
+    },
+    {
+        "conv_index": 20,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I think I know what I need to do, It is just hard.",
+            "Helper: It is hard. Unfortunately you can only try to direct them to stop for so long before it can really damage your own well being, which should come first.",
+            "Seeker: I agree, and after going through this in the past with her, I just can't sit and wait for the train crash. she feels like she is doing nothing wrong because she has valid prescriptions. I feel like I should just cut her off completely, I don't have time for her drama. What do you suggest?",
+            "Helper: I would actually suggest just that. If you have tried, or do not even feel like going down that path. Then that is your decision. You should look out for yourself!",
+            "Seeker: True, I definitely do not need to be caught up in her mess. I have too much to lose. I just feel bad like i am abandoning her.",
+            "Helper: The thing is with drugs, that person already abandoned themselves. Sometimes they can get the help they need, but they need to do it on their own terms. Its kind of like a blackhole where everything gets sucked into their life."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide support without imposing beliefs or personal values on the seeker. It would be more effective to reflect the seeker's feelings and concerns, rather than giving an opinion about the situation.",
+            "badareas": [
+                "Empathy",
+                "Suggestions"
+            ],
+            "alternative": "It sounds like you're worried about being pulled into her problems, but also concerned about leaving her to face them alone. That must be a difficult balance to find."
+        }
+    },
+    {
+        "conv_index": 21,
+        "helper_index": 1,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello, what would you like to talk about?",
+            "Seeker: How empty my life is.",
+            "Helper: Why do you feel like your life is empty?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to validate the seeker's feelings while also seeking out more information. The current question is a bit too direct for the start of the conversation. Gently asking the seeker to explain more would be a better approach",
+            "badareas": [
+                "Validation",
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "I'm sorry to hear you're feeling this way. If you're comfortable sharing, can you tell me more about these feelings your experiencing?"
+        }
+    },
+    {
+        "conv_index": 21,
+        "helper_index": 2,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello, what would you like to talk about?",
+            "Seeker: How empty my life is.",
+            "Helper: Why do you feel like your life is empty?",
+            "Seeker: The love of my life is no longer in my life.",
+            "Helper: I'm really sorry to hear that."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to express empathy and explore the seeker's feelings further. It's also important to validate that the seekers feelings are normal. The helper could improve by following up with a question to encourage the seeker to express their feelings more.",
+            "badareas": [
+                "Questions",
+                "Validation"
+            ],
+            "alternative": "I'm really sorry to hear about that, it's really tough to lose someone we care about. Can you share a bit more about your feelings about this loss?"
+        }
+    },
+    {
+        "conv_index": 21,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello, what would you like to talk about?",
+            "Seeker: How empty my life is.",
+            "Helper: Why do you feel like your life is empty?",
+            "Seeker: The love of my life is no longer in my life.",
+            "Helper: I'm really sorry to hear that.",
+            "Seeker: Yes, she left me for her supervisor at work.",
+            "Helper: Was this a recent event?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to continue to explore the seeker's thoughts and feelings regarding the loss of the relationship. This question draws away from their feelings. It would be better to provide empathy and follow up with a more open-ended question.",
+            "badareas": [
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "Wow, I'm sorry to hear that, that's a difficult situation to be in. Can you tell me more about it?"
+        }
+    },
+    {
+        "conv_index": 21,
+        "helper_index": 4,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello, what would you like to talk about?",
+            "Seeker: How empty my life is.",
+            "Helper: Why do you feel like your life is empty?",
+            "Seeker: The love of my life is no longer in my life.",
+            "Helper: I'm really sorry to hear that.",
+            "Seeker: Yes, she left me for her supervisor at work.",
+            "Helper: Was this a recent event?",
+            "Seeker: Yes, five days ago.",
+            "Helper: Wow, that's really a hard thing to deal with isn't it?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to provide validation and explore how the seeker has been processing the situation.",
+            "badareas": [
+                "Validation",
+                "Questions"
+            ],
+            "alternative": "Wow that's a really hard thing to deal with. You mentioned your life feeling empty since it happened, how have you been processing what happened?"
+        }
+    },
+    {
+        "conv_index": 21,
+        "helper_index": 7,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Yes, she left me for her supervisor at work.",
+            "Helper: Was this a recent event?",
+            "Seeker: Yes, five days ago.",
+            "Helper: Wow, that's really a hard thing to deal with isn't it?",
+            "Seeker: It sure is. She told me this guy was sexually harassing her at work, then I find out she is leaving me for this guy.",
+            "Helper: Hmm, it sounds like she isn't being completely honest with you. I've been left before too. It was one of the most painful experiences of my life.",
+            "Seeker: I think she liked all of the attention he was giving her, and then she got turned on by it. It is sick. I can't believe anyone would ever leave you, you seem like such a nice person.",
+            "Helper: Maybe she did like the attention, but that is her own issue. It really doesn't have anything to do with you. Sometimes low self worth makes a person seek that kind of exterior validation from someone else.",
+            "Seeker: I should have followed and stalked her like this guy did, it seems to turn her on, she said she likes being watched. I told her to see a therapist and she told me to leave our apartmnent.",
+            "Helper: That doesn't sound healthy to you, does it?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to validate the seeker's feelings and not to make assumptions about the situation. It might be more effective to ask open-ended questions about how the seeker feels and what they think about the situation.",
+            "badareas": [
+                "Questions",
+                "Validation"
+            ],
+            "alternative": "It sounds like you're really upset with her actions. Would you like to share more about how this has made you feel?"
+        }
+    },
+    {
+        "conv_index": 21,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: Yes, she left me for her supervisor at work.",
+            "Helper: Was this a recent event?",
+            "Seeker: Yes, five days ago.",
+            "Helper: Wow, that's really a hard thing to deal with isn't it?",
+            "Seeker: It sure is. She told me this guy was sexually harassing her at work, then I find out she is leaving me for this guy.",
+            "Helper: Hmm, it sounds like she isn't being completely honest with you. I've been left before too. It was one of the most painful experiences of my life.",
+            "Seeker: I think she liked all of the attention he was giving her, and then she got turned on by it. It is sick. I can't believe anyone would ever leave you, you seem like such a nice person.",
+            "Helper: Maybe she did like the attention, but that is her own issue. It really doesn't have anything to do with you. Sometimes low self worth makes a person seek that kind of exterior validation from someone else.",
+            "Seeker: I should have followed and stalked her like this guy did, it seems to turn her on, she said she likes being watched. I told her to see a therapist and she told me to leave our apartmnent.",
+            "Helper: That doesn't sound healthy to you, does it?",
+            "Seeker: Yes, I think she has low self esteem, but she let me do things with her, we would experiment sexually together, it was wild. But now I think she is not healthy and has mental issues.",
+            "Helper: so, do you think that was the only way she could connect with you, through sex?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to explore the seeker's feelings around the situation. Rather than making assumptions or leading the seeker, it would be more effective to ask open-ended questions that allow the seeker to express their thoughts and feelings.",
+            "badareas": [
+                "Questions",
+                "Reflections"
+            ],
+            "alternative": "It seems like you're trying to understand her actions and feel that maybe she isn't the person you thought she was. What is that like for you?"
+        }
+    }
+]

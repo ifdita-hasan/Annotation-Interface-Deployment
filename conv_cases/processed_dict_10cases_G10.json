@@ -1,0 +1,247 @@
+[
+    {
+        "conv_index": 24,
+        "helper_index": 6,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: I hear you. It's been a very bad year for everyone, what with the pandemic and everything.",
+            "Seeker: so much stress here with deaths in family, aloneness and bills",
+            "Helper: Has something specific happened that you'd like to talk about?",
+            "Seeker: yes not to mention the pandemic. i forget to wear my mask from home mostly mine is gone. and swind up hving to buy one somewhere out there or come back home",
+            "Helper: I am so sorry to hear that. Are you aware that there are agencies out there who could offer you help and advice?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to validate and empathize with the seeker's distress about forgetting their mask and the additional stress it causes. Rather than offering unsolicited advice or suggestions, it could be more helpful to reflect on the seeker's feelings and validate their experience.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "I'm really sorry to hear how stressful this is for you. Having to remember a mask on top of everything else can be really overwhelming."
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 11,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: I am so sorry to hear that. Are you aware that there are agencies out there who could offer you help and advice?",
+            "Seeker: with my rthritis it hurts me so much to wal and walking back home to go bck gain is out of the question, i used to walk for miles and miles and work all day so depressing s ometimes. know there are agencies , i have een worked at a few senior commmunities and day centers , .",
+            "Helper: So you feel that you have more problems than normal, what with health problems and the pandemic too?",
+            "Seeker: i g to counseling now, but with our pndemic the groups are not meeting anymore. yes i g to the doctor too",
+            "Helper: Yes I hear you. I have also felt very isolated during this pandemic.",
+            "Seeker: A lot of pepple say they are and then they are home with their families and everything. i just was listening to the tv and it made me feel like why are they so uncomfortable to be home with their families. and let it pass",
+            "Helper: It is perfectly normal to feel this way at this time. Are you able to see your family at all?",
+            "Seeker: no not really, my friend (boy) had asked me if i wanted to go visit my daughter in Delware and i said no bcquse of the pandemic. she came here with her family this past th of July. this is part of the reason but not ll",
+            "Helper: How did it make you feel to have to say no?",
+            "Seeker: i have two daughters and they each have a son i have familly here too but we are estranged from each now moe than ever since the sister that as after me died, they looked up to her more since i had left to live with my father when our mother died. my life is a story of broken lives from the time i was born. so being alone is nothing new to me. it is in my bones this lonliness i have",
+            "Helper: Do you feel as though you have nowhere to turn and that things are just getting worse?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide validation and support without making assumptions or leading the seeker. Instead of assuming the seeker feels they have nowhere to turn, it might be better to ask how they're feeling about their situation or what they need right now.",
+            "badareas": [
+                "Reflections",
+                "Questions"
+            ],
+            "alternative": "It sounds like you've been through a lot, and it's okay to feel lonely. What kind of support do you think might be helpful for you right now?"
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 12,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Yes I hear you. I have also felt very isolated during this pandemic.",
+            "Seeker: A lot of pepple say they are and then they are home with their families and everything. i just was listening to the tv and it made me feel like why are they so uncomfortable to be home with their families. and let it pass",
+            "Helper: It is perfectly normal to feel this way at this time. Are you able to see your family at all?",
+            "Seeker: no not really, my friend (boy) had asked me if i wanted to go visit my daughter in Delware and i said no bcquse of the pandemic. she came here with her family this past th of July. this is part of the reason but not ll",
+            "Helper: How did it make you feel to have to say no?",
+            "Seeker: i have two daughters and they each have a son i have familly here too but we are estranged from each now moe than ever since the sister that as after me died, they looked up to her more since i had left to live with my father when our mother died. my life is a story of broken lives from the time i was born. so being alone is nothing new to me. it is in my bones this lonliness i have",
+            "Helper: Do you feel as though you have nowhere to turn and that things are just getting worse?",
+            "Seeker: i have financial problems now since i have been sending money to Africa to my new love",
+            "Helper: I see. Are you likely to be able to meet them in person soon, given the global situation?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to focus on the emotions and the financial problems the seeker is facing, rather than focusing on the prospect of meeting someone. It would be good to empathize with the seeker's situation and ask more about how it affects them.",
+            "badareas": [
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "It sounds like supporting someone financially in another country is causing you a lot of stress. How is this affecting you?"
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 13,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: i have financial problems now since i have been sending money to Africa to my new love",
+            "Helper: I see. Are you likely to be able to meet them in person soon, given the global situation?",
+            "Seeker: unpaid bills and credit all messed up, i was trying to be a responsible grandmother to my grandsons and daughters but he has gotten their money and now it is Christmas. h says he is coming to marry me wihich will be another problems and nothing else will dominate his mind",
+            "Helper: That sounds really horrific. May I suggest you seek some professional help?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to validate the seeker's feelings and offer them support without imposing solutions. It would be better to provide validation of the seeker's feelings and experiences before suggesting professional help.",
+            "badareas": [
+                "Validation",
+                "Suggestions"
+            ],
+            "alternative": "That sounds incredibly tough and overwhelming, dealing with financial issues and relationship troubles all at once. While I'm here to support you, it might be helpful to also consider seeking professional help to navigate through these challenges."
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 14,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: i have financial problems now since i have been sending money to Africa to my new love",
+            "Helper: I see. Are you likely to be able to meet them in person soon, given the global situation?",
+            "Seeker: unpaid bills and credit all messed up, i was trying to be a responsible grandmother to my grandsons and daughters but he has gotten their money and now it is Christmas. h says he is coming to marry me wihich will be another problems and nothing else will dominate his mind",
+            "Helper: That sounds really horrific. May I suggest you seek some professional help?",
+            "Seeker: with all of thois flower tak i am not sure i have not been scammed",
+            "Helper: I hope that I have been able to b of some comfort to you. I must leave now but I urge you to get professional help"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to close the conversation in a supportive and validating manner, while also suggesting potential next steps. It would be great to validate the seeker's feelings, show empathy, and encourage them to seek professional help, without imposing it.",
+            "badareas": [
+                "Suggestions",
+                "Professionalism",
+                "Structure"
+            ],
+            "alternative": "It sounds like you're dealing with a lot right now, and I'm really glad you reached out to talk about it. Remember, it's okay to seek professional help when things feel overwhelming. Take care."
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 15,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: i have financial problems now since i have been sending money to Africa to my new love",
+            "Helper: I see. Are you likely to be able to meet them in person soon, given the global situation?",
+            "Seeker: unpaid bills and credit all messed up, i was trying to be a responsible grandmother to my grandsons and daughters but he has gotten their money and now it is Christmas. h says he is coming to marry me wihich will be another problems and nothing else will dominate his mind",
+            "Helper: That sounds really horrific. May I suggest you seek some professional help?",
+            "Seeker: with all of thois flower tak i am not sure i have not been scammed",
+            "Helper: I hope that I have been able to b of some comfort to you. I must leave now but I urge you to get professional help",
+            "Seeker: there is alsays a sad story which hads also made me so depressed and then they have such terrible things happening to them over there",
+            "Helper: I hear you. Please try to reach out for professional help"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to empathize with the seeker while encouraging them to seek help. It could be more effective to give a more empathetic response, acknowledging the seeker's feelings in detail, before suggesting professional help.",
+            "badareas": [
+                "Reflections",
+                "Suggestions"
+            ],
+            "alternative": "I can hear your sadness and distress in your words. It's really tough to go through all this. Remember, there are professionals who can provide the help and support you need during this challenging time."
+        }
+    },
+    {
+        "conv_index": 25,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: it keeps me up at night and I cant seem to get away form it even for a moment",
+            "Helper: I too worry about things I feel I cannot control, the lack of sleep due to this just makes it worse so I try to think of positive things, but its hard.",
+            "Seeker: yes and its always in the back of my mind burning. Like don't be to happy because things are going to fail",
+            "Helper: Its hard to stop those negative thoughts, but the first step is sharing your feelings with others and talking about it. You are now on your way to healing."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to provide support to the seeker. It might be better to avoid making assumptions about the seeker\u2019s healing process. Instead, acknowledging the seeker\u2019s efforts in managing their situation and offering to explore coping strategies could be more beneficial.",
+            "badareas": [
+                "Reflections",
+                "Suggestions"
+            ],
+            "alternative": "It must be really hard having these persistent negative thoughts. But it's a good step that you're acknowledging them and reaching out for help. Would you like to explore some strategies that could help you manage these thoughts?"
+        }
+    },
+    {
+        "conv_index": 25,
+        "helper_index": 7,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Its hard to stop those negative thoughts, but the first step is sharing your feelings with others and talking about it. You are now on your way to healing.",
+            "Seeker: It does help to talk about it with someone who doesn't judge",
+            "Helper: I can see in your words how stressed you are and troubled.",
+            "Seeker: This whole covid thing makes it 10 times worse",
+            "Helper: May I suggest that you seek some face to face support from a best friend or close family member."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to explore the seeker's feelings more. It might be better to ask open-ended questions to understand more about the seeker's experience, instead of jumping to suggestions.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "It sounds like you're really affected by this. Do you have anyone close to you who you feel comfortable sharing these feelings with?"
+        }
+    },
+    {
+        "conv_index": 25,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Its hard to stop those negative thoughts, but the first step is sharing your feelings with others and talking about it. You are now on your way to healing.",
+            "Seeker: It does help to talk about it with someone who doesn't judge",
+            "Helper: I can see in your words how stressed you are and troubled.",
+            "Seeker: This whole covid thing makes it 10 times worse",
+            "Helper: May I suggest that you seek some face to face support from a best friend or close family member.",
+            "Seeker: easier said then done I'm high risk so I have been social distancing",
+            "Helper: Its still possible. Social distancing, six feet away but in maybe your backyard or even a park away from others so you can talk with some degree of confidence that its private. Just being around another person is so very supportive and positive. Please try."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to empathize with the seeker's situation. It would be better to acknowledge the difficulty of the situation and validate the seeker's feelings, before making suggestions.",
+            "badareas": [
+                "Empathy",
+                "Suggestions"
+            ],
+            "alternative": "I understand how difficult it must be to stay connected with others while you're at high risk. It's important to keep your safety in mind, but I wonder if there might be a safe way for you to have some human interaction. What are your thoughts about that?"
+        }
+    },
+    {
+        "conv_index": 26,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I need support to feel ok during the pandemic",
+            "Helper: Hello.",
+            "Seeker: HI there",
+            "Helper: What type of things are you worried about during the pandemic?",
+            "Seeker: That I may not find a job soon which is making me depressed",
+            "Helper: So just to make sure I understand, you are anxious about possibly loosing your job due to the pandemic",
+            "Seeker: I am not working at the moment, I am looking for a job but it has been really difficult to find one",
+            "Helper: Have you looked into a hiring agency? They are great at helping find people jobs, especially in these hard times."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to truly understand the nature of the problem before offering solutions. It might be better to continue exploring and understanding the seeker's situation and feelings before jumping into suggestions.",
+            "badareas": [
+                "Suggestions",
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "I can imagine that's very difficult. How long have you been looking for a job?"
+        }
+    }
+]

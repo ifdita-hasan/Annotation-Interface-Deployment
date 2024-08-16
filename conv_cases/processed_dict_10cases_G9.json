@@ -1,0 +1,254 @@
+[
+    {
+        "conv_index": 23,
+        "helper_index": 1,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello!. How are you today?",
+            "Seeker: i am really very depressed",
+            "Helper: Is there a specific incident that caused you to feel this way?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide a safe and supportive space for the seeker to express their feelings. Instead of directly jumping into the cause, it might be better to first validate the seeker's feelings and empathize with them.",
+            "badareas": [
+                "Empathy",
+                "Validation",
+                "Questions"
+            ],
+            "alternative": "I'm really sorry to hear that you're feeling this way. Would you like to tell me more about what you're going through?"
+        }
+    },
+    {
+        "conv_index": 23,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello!. How are you today?",
+            "Seeker: i am really very depressed",
+            "Helper: Is there a specific incident that caused you to feel this way?",
+            "Seeker: it was the incident that is break up with my partner.",
+            "Helper: When big life changes come, it is natural to feel sad or upset.",
+            "Seeker: but i feel very stress ful in that suitation",
+            "Helper: Since the breakup, have you found a safe place to live? Have you reached out to any friends to talk about how you're feeling?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to provide empathetic support and ensure the seeker's wellbeing. It could be better to ask one question at a time to allow the seeker to fully express their thoughts and feelings.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "I'm sorry to hear that you're going through this. Are you currently in a safe place to live?"
+        }
+    },
+    {
+        "conv_index": 23,
+        "helper_index": 4,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello!. How are you today?",
+            "Seeker: i am really very depressed",
+            "Helper: Is there a specific incident that caused you to feel this way?",
+            "Seeker: it was the incident that is break up with my partner.",
+            "Helper: When big life changes come, it is natural to feel sad or upset.",
+            "Seeker: but i feel very stress ful in that suitation",
+            "Helper: Since the breakup, have you found a safe place to live? Have you reached out to any friends to talk about how you're feeling?",
+            "Seeker: i have rented seperately. i reached to my friends but no use of that.",
+            "Helper: Knowing you have a safe place to live is one positive aspect of your life!"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to empathize explore the seeker's feelings regarding the break up and reaching out to friends with no luck. Instead of assuming their living situation is safe, it would be better to find out about their support system.",
+            "badareas": [
+                "Validation",
+                "Empathy",
+                "Questions"
+            ],
+            "alternative": "I'm sorry to hear that reaching out to your friends was of no use. Are there any other people you feel comfortable reaching out to for support?"
+        }
+    },
+    {
+        "conv_index": 23,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello!. How are you today?",
+            "Seeker: i am really very depressed",
+            "Helper: Is there a specific incident that caused you to feel this way?",
+            "Seeker: it was the incident that is break up with my partner.",
+            "Helper: When big life changes come, it is natural to feel sad or upset.",
+            "Seeker: but i feel very stress ful in that suitation",
+            "Helper: Since the breakup, have you found a safe place to live? Have you reached out to any friends to talk about how you're feeling?",
+            "Seeker: i have rented seperately. i reached to my friends but no use of that.",
+            "Helper: Knowing you have a safe place to live is one positive aspect of your life!",
+            "Seeker: yes i am safe",
+            "Helper: I know it is hard right now, but seeking out others will bring small moments of joy to the day. Exercise can help clear your mind. Do you enjoy going for a walk?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to provide validation for their safety while also providing support and offering suggestions based on the seeker's interests. It would be better to ask for the seeker's preferences before suggesting solutions. It might also be better to acknowledge the seeker's feelings more before transitioning into suggesting solutions.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "I understand that it's a challenging time for you. But I'm glad to hear you're safe.  It could be helpful to find things you enjoy doing to distract your mind. What do you usually enjoy doing in your free time?"
+        }
+    },
+    {
+        "conv_index": 23,
+        "helper_index": 7,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello!. How are you today?",
+            "Seeker: i am really very depressed",
+            "Helper: Is there a specific incident that caused you to feel this way?",
+            "Seeker: it was the incident that is break up with my partner.",
+            "Helper: When big life changes come, it is natural to feel sad or upset.",
+            "Seeker: but i feel very stress ful in that suitation",
+            "Helper: Since the breakup, have you found a safe place to live? Have you reached out to any friends to talk about how you're feeling?",
+            "Seeker: i have rented seperately. i reached to my friends but no use of that.",
+            "Helper: Knowing you have a safe place to live is one positive aspect of your life!",
+            "Seeker: yes i am safe",
+            "Helper: I know it is hard right now, but seeking out others will bring small moments of joy to the day. Exercise can help clear your mind. Do you enjoy going for a walk?",
+            "Seeker: yes ,but hard to over come that problem. i enjoy going to walk",
+            "Helper: I love to walk too!. The park by my house has some incredible fall leaves right now!",
+            "Seeker: it is a nice climate too",
+            "Helper: Let's focus on accomplishing one small goal for the day. I know you have the ability to accomplish your goals!. What one task can you succeed at today?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to encourage the seeker to set achievable goals. However, it would be better to ask them about any strategies they've tried before to cope with similar situations rather than imposing a strategy.",
+            "badareas": [
+                "Questions",
+                "Suggestions"
+            ],
+            "alternative": "When you're feeling like this, are there any strategies or activities you've tried that helped, even just a bit?"
+        }
+    },
+    {
+        "conv_index": 23,
+        "helper_index": 9,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Knowing you have a safe place to live is one positive aspect of your life!",
+            "Seeker: yes i am safe",
+            "Helper: I know it is hard right now, but seeking out others will bring small moments of joy to the day. Exercise can help clear your mind. Do you enjoy going for a walk?",
+            "Seeker: yes ,but hard to over come that problem. i enjoy going to walk",
+            "Helper: I love to walk too!. The park by my house has some incredible fall leaves right now!",
+            "Seeker: it is a nice climate too",
+            "Helper: Let's focus on accomplishing one small goal for the day. I know you have the ability to accomplish your goals!. What one task can you succeed at today?",
+            "Seeker: i have to divert my mind by focusing my thought from other suitaion only. i am thinking of going out for shopping.",
+            "Helper: Wonderful! I hope you enjoy the fresh air and change of scenery.",
+            "Seeker: yes really .",
+            "Helper: Make the most of your beautiful day!"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to encourage the seeker to enjoy their day. It would be good to validate their feelings and express empathy, instead of giving direct advice.",
+            "badareas": [
+                "Suggestions",
+                "Validation"
+            ],
+            "alternative": "I'm glad to hear that you're finding positive ways to distract yourself. "
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 0,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello there, how is life going for you right now? Is there anything on your mind that you would like to talk about? I am happy to listen if you want to talk."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Structure"
+            ],
+            "feedback": "The goal is to provide structure and find out what the seeker would like to discuss. While this structure is fine, it would be better to simplify it to one question.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "Hello there, is there anything that you would like to talk about? I am happy to listen."
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: i heard the bell ticking and kept wondering what had happened and what it was",
+            "Helper: That is no problem! What would you like to talk about?",
+            "Seeker: this is how my mind is won- dering so much now",
+            "Helper: Okay... do you feel that you are having trouble concentrating?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to acknowledge the seeker's feelings and help them explore these feelings further. It would be helpful to respond with empathy and validate the seeker's experience before asking a question. It would also be beneficial to make the question more open-ended.",
+            "badareas": [
+                "Empathy",
+                "Validation",
+                "Questions"
+            ],
+            "alternative": "It sounds like your thoughts are wandering a lot right now. Can you share more about what's going on in your mind?"
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 4,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: this is how my mind is won- dering so much now",
+            "Helper: Okay... do you feel that you are having trouble concentrating?",
+            "Seeker: i just need to hear the voice of someone now as i am into myself so much. bad time to be alone as the miind keeps wanting theings for me that i had left alone",
+            "Helper: I hear you. It's been a very bad year for everyone, what with the pandemic and everything."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to empathize with the seeker's experience and maintain focus on them. It would be better to avoid generalizing the experience and making assumptions. Instead, it's important to validate the seeker's feelings and inquire more about their personal experience.",
+            "badareas": [
+                "Validation",
+                "Questions",
+                "Reflections"
+            ],
+            "alternative": "It sounds like you're feeling overwhelmed and alone right now. Can you share more about what's been happening?"
+        }
+    },
+    {
+        "conv_index": 24,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: this is how my mind is won- dering so much now",
+            "Helper: Okay... do you feel that you are having trouble concentrating?",
+            "Seeker: i just need to hear the voice of someone now as i am into myself so much. bad time to be alone as the miind keeps wanting theings for me that i had left alone",
+            "Helper: I hear you. It's been a very bad year for everyone, what with the pandemic and everything.",
+            "Seeker: so much stress here with deaths in family, aloneness and bills",
+            "Helper: Has something specific happened that you'd like to talk about?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to help the seeker to identify and express their thoughts and feelings. It would be more effective to acknowledge and validate the seeker's emotions before asking a question. Also, it would be good to use empathetic exploration to help the seeker explore their feelings.",
+            "badareas": [
+                "Empathy",
+                "Validation",
+                "Questions"
+            ],
+            "alternative": "It sounds like you're going through a lot with family loss, feelings of isolation, and financial stress. Can you share more about how these issues are impacting you?"
+        }
+    }
+]

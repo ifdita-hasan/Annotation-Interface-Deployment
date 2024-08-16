@@ -1,0 +1,258 @@
+[
+    {
+        "conv_index": 6,
+        "helper_index": 3,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello, how are you?",
+            "Seeker: Not feeling too great.",
+            "Helper: What happened?",
+            "Seeker: I lost my job and I'm sad.",
+            "Helper: I'm sorry to hear that, when was it?",
+            "Seeker: I just found out this morning. I'm not sure what to do",
+            "Helper: that sucks, did you tell your family?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to provide emotional support to the seeker. It might be good to acknowledge the difficulty of the situation and then encourage the seeker to express their feelings.",
+            "badareas": [
+                "Reflections",
+                "Questions"
+            ],
+            "alternative": "I can imagine this news is hard to take in. How are you feeling about it?"
+        }
+    },
+    {
+        "conv_index": 6,
+        "helper_index": 5,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I lost my job and I'm sad.",
+            "Helper: I'm sorry to hear that, when was it?",
+            "Seeker: I just found out this morning. I'm not sure what to do",
+            "Helper: that sucks, did you tell your family?",
+            "Seeker: Yeah i told them. they just aren't in a position to help me",
+            "Helper: it's ok even if they can't really help, having someone to share your problem is good enough",
+            "Seeker: Thats true. I still feel pretty sad about it",
+            "Helper: Of course, anyone would feel the same. Maybe you should take a short trip, camping or go fishing to clear your mind for now"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Validation"
+            ],
+            "feedback": "The goal is to help the seeker find a way to cope with their feelings. Instead of offering a specific suggestion, it would be good to ask the seeker what they usually enjoy doing or what has helped them in the past.",
+            "badareas": [
+                "Suggestions"
+            ],
+            "alternative": "It's completely normal to feel this way given the situation. What are some things you enjoy doing that might help distract you or lift your spirits during this time?"
+        }
+    },
+    {
+        "conv_index": 6,
+        "helper_index": 6,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I lost my job and I'm sad.",
+            "Helper: I'm sorry to hear that, when was it?",
+            "Seeker: I just found out this morning. I'm not sure what to do",
+            "Helper: that sucks, did you tell your family?",
+            "Seeker: Yeah i told them. they just aren't in a position to help me",
+            "Helper: it's ok even if they can't really help, having someone to share your problem is good enough",
+            "Seeker: Thats true. I still feel pretty sad about it",
+            "Helper: Of course, anyone would feel the same. Maybe you should take a short trip, camping or go fishing to clear your mind for now",
+            "Seeker: That's a great idea!. I think i'll do that now. Should I invite people?",
+            "Helper: I think after you feel calmer then you can look for job. When we are desperate, we are unable to judge which option is good. Absolutely, having friends right now is the best"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Suggestions"
+            ],
+            "feedback": "The goal is to support the seeker, not direct them. It might be better to ask how the seeker feels about certain actions or options, rather than telling them what they should do.",
+            "badareas": [
+                "Reflections",
+                "Questions"
+            ],
+            "alternative": "It sounds like you're thinking about inviting people along. What are your thoughts on that? Do you think it might help you to have people around you right now?"
+        }
+    },
+    {
+        "conv_index": 6,
+        "helper_index": 8,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I lost my job and I'm sad.",
+            "Helper: I'm sorry to hear that, when was it?",
+            "Seeker: I just found out this morning. I'm not sure what to do",
+            "Helper: that sucks, did you tell your family?",
+            "Seeker: Yeah i told them. they just aren't in a position to help me",
+            "Helper: it's ok even if they can't really help, having someone to share your problem is good enough",
+            "Seeker: Thats true. I still feel pretty sad about it",
+            "Helper: Of course, anyone would feel the same. Maybe you should take a short trip, camping or go fishing to clear your mind for now",
+            "Seeker: That's a great idea!. I think i'll do that now. Should I invite people?",
+            "Helper: I think after you feel calmer then you can look for job. When we are desperate, we are unable to judge which option is good. Absolutely, having friends right now is the best",
+            "Seeker: This is some pretty solid advice thank you. Is drinking okay when youre depressed? I kinda want to drink.",
+            "Helper: you can drink a bit but be careful, people get addicted to alcohol during depression happens very often",
+            "Seeker: Good idea!. I think ill do that with friends on the trip. my moods a lot better now thank you",
+            "Helper: give yourself a week or two, what done is done, you can use this time as a break for yourself!"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to encourage the seeker to reflect on the future, and for the helper to avoid giving directives.",
+            "badareas": [
+                "Questions",
+                "Reflections"
+            ],
+            "alternative": " it sounds like you're optimistic about the future, and I'm glad to hear that you're already feeling better."
+        }
+    },
+    {
+        "conv_index": 6,
+        "helper_index": 9,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: it's ok even if they can't really help, having someone to share your problem is good enough",
+            "Seeker: Thats true. I still feel pretty sad about it",
+            "Helper: Of course, anyone would feel the same. Maybe you should take a short trip, camping or go fishing to clear your mind for now",
+            "Seeker: That's a great idea!. I think i'll do that now. Should I invite people?",
+            "Helper: I think after you feel calmer then you can look for job. When we are desperate, we are unable to judge which option is good. Absolutely, having friends right now is the best",
+            "Seeker: This is some pretty solid advice thank you. Is drinking okay when youre depressed? I kinda want to drink.",
+            "Helper: you can drink a bit but be careful, people get addicted to alcohol during depression happens very often",
+            "Seeker: Good idea!. I think ill do that with friends on the trip. my moods a lot better now thank you",
+            "Helper: give yourself a week or two, what done is done, you can use this time as a break for yourself!",
+            "Seeker: Sure thing. How do I fix my problem with the job?",
+            "Helper: Anything else I can help you with?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to make sure that we don't accidentally miss any questions or gloss over when someone is reaching out for help.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "That's a good question, because our bills definitely won't pay for themselves! Once you're in a better headspace, you can start looking into updating your r\u00e9sum\u00e9 and getting yourself back into a new job. Do you think you're ready for that yet?"
+        }
+    },
+    {
+        "conv_index": 6,
+        "helper_index": 10,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: it's ok even if they can't really help, having someone to share your problem is good enough",
+            "Seeker: Thats true. I still feel pretty sad about it",
+            "Helper: Of course, anyone would feel the same. Maybe you should take a short trip, camping or go fishing to clear your mind for now",
+            "Seeker: That's a great idea!. I think i'll do that now. Should I invite people?",
+            "Helper: I think after you feel calmer then you can look for job. When we are desperate, we are unable to judge which option is good. Absolutely, having friends right now is the best",
+            "Seeker: This is some pretty solid advice thank you. Is drinking okay when youre depressed? I kinda want to drink.",
+            "Helper: you can drink a bit but be careful, people get addicted to alcohol during depression happens very often",
+            "Seeker: Good idea!. I think ill do that with friends on the trip. my moods a lot better now thank you",
+            "Helper: give yourself a week or two, what done is done, you can use this time as a break for yourself!",
+            "Seeker: Sure thing. How do I fix my problem with the job?",
+            "Helper: Anything else I can help you with?",
+            "Seeker: I really dont know where to turn to. its really hard finding work where I live",
+            "Helper: after the trip, you can start looking around and see, if there's no good openings, you can do part time to get some income for now"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to help the seeker explore potential solutions for their job situation. It would be good to encourage the seeker to start considering their options and making plans for their own job search.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "Looking for a job can definitely be challenging. Sometimes finding a job is a full-time job in itself. What do you think your first step will be when looking for a new job?"
+        }
+    },
+    {
+        "conv_index": 7,
+        "helper_index": 1,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello, how are you doing today?",
+            "Seeker: I've been dealing with a lot of depression lately. not sure how to shake it (1)",
+            "Helper: Im sorry to hear that, has there been anything going to cause the increase?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to explore the nature of the seeker's depression. It might be better to ask an open-ended question to allow the seeker to express their feelings freely.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "I'm sorry to hear that you're going through this. Would you like to tell me more about what you're experiencing?"
+        }
+    },
+    {
+        "conv_index": 7,
+        "helper_index": 6,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Have you tried to talk to a professional. It is very prevalent that mothers experiencing this do.",
+            "Seeker: I've talked to my doctor that delivered my daughter about it. He recommended medication but I'm not so sure I want to take something for the rest of my life (4)",
+            "Helper: As long as you recognize that it is a much more common thing that people go through, that is a great start. I experienced it with my second child as well.",
+            "Seeker: Did they put you on medication (5)",
+            "Helper: There is no harm getting a second opinion. I never did take medication, i found a good therapist to talk too.",
+            "Seeker: A second opinion is probably a good thing. I just know I can't keep laying in bed 1/2 the day with the baby. (6)",
+            "Helper: Yeah that you cant, and i cant stress how good it is that you realize it. I would definitely go for a second opinion. Or even search for therapists that specialize in it in your area. Never have been a fan of using medicine as the first go unless really needed."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [],
+            "feedback": "The goal is to be supportive while also staying neutral about medication. It might be better to avoid sharing personal opinions about medication, but it's good to suggest alternative options like therapy. It's also good to not make value judgments about how you feel about the seeker laying in bed.",
+            "badareas": [
+                "Professionalism",
+                "Suggestions"
+            ],
+            "alternative": "It's really positive that you realize you want to make a change. If you're unsure about the medication, seeking a second opinion could be helpful. You might also consider looking for therapists who specialize in postpartum issues in your area."
+        }
+    },
+    {
+        "conv_index": 7,
+        "helper_index": 10,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Seeker: I don't think a lot of people talk about it. You have this new healthy child, you should be excited, and yet there is extreme sadness and no idea why so you stay quiet about it (9)",
+            "Helper: Yeah its a rough cycle, you get down on yourself for feeling down.",
+            "Seeker: Exactly, like it's my fault that I feel this way. My head knows that is not right, my heart another story. (10)",
+            "Helper: Well, i am glad you want to do something about it. I hope you do follow up with a second opinion, or maybe even support groups in your area."
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Validation"
+            ],
+            "feedback": "The goal is to offer support and encouragement without imposing a particular action. It would be good to avoid 'I hope you do' and instead focus on expressing support for the seeker's initiative.",
+            "badareas": [
+                "Suggestions"
+            ],
+            "alternative": "It's really great to hear that you're considering taking some steps to address this. Whether that's seeking a second opinion, exploring support groups, or something else, remember that any step towards helping yourself is a positive one."
+        }
+    },
+    {
+        "conv_index": 8,
+        "helper_index": 2,
+        "instruction": "Instruction:\nGive feedback to the Helper's last response.",
+        "input": [
+            "Helper: Hello how are you feeling today?",
+            "Seeker: Not so great today to be honest, have been trying to think of things I can do to make my life having meaning but I am struggling",
+            "Helper: I hear you, it's difficult to feel good when we are struggling. What are you struggling with?",
+            "Seeker: I just feel so sad all the time, I don't know how to snap out of it",
+            "Helper: I'm sorry you're sad. Do you know what is making you feel so sad?"
+        ],
+        "response": {
+            "perfect": false,
+            "goodareas": [
+                "Empathy"
+            ],
+            "feedback": "The goal is to empathize with the seeker's emotional state and encourage them to elaborate more on what they\u2019re feeling. Instead of asking directly what is making them feel sad, it might be better to ask open-ended questions to allow the seeker to express their feelings more freely.",
+            "badareas": [
+                "Questions"
+            ],
+            "alternative": "I can tell you're having a really tough time. Would you like to tell me more about what you're feeling?"
+        }
+    }
+]
